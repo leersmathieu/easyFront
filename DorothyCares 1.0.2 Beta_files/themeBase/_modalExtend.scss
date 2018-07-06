@@ -3,29 +3,29 @@
 .tooltip {
     position: relative;
     display: inline-block;
+    .tooltiptext {
+        visibility: hidden;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 700;
+        font-size: 0.8rem;
+        width: 70px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 11;
+        /*bottom: 65%;*/
+        bottom: 0.3rem;
+        /*left: 0%;*/
+        left: 0.5rem;
+        margin-left: -80px;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
 }
 
-.tooltip .tooltiptext {
-    visibility: hidden;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 700;
-    font-size: 0.8rem;
-    width: 70px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 11;
-    /*bottom: 65%;*/
-    bottom: 0.3rem;
-    /*left: 0%;*/
-    left: 0.5rem;
-    margin-left: -80px;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
 
 .tooltip .tooltiptext::after {
     content: "";
@@ -78,13 +78,13 @@
 .modal-close-btn-3 {
     position: relative;
     right: -60px;
+    i {
+        cursor: pointer;
+        font-size: 4rem;
+        color: white;
+    }
 }
 
-.modal-close-btn-3 i {
-    cursor: pointer;
-    font-size: 4rem;
-    color: white;
-}
 
 .modal-body-info {
     /*display: fixed;*/
@@ -104,12 +104,8 @@
 }
 
 .modal-info-creators {
-    color: lightgray;
-    margin-top: 0px;
-}
-
-.modal-info-creators {
     /*Powered by the Nine: Saadia Brahimi, Cali Armut, Laurent Hulstaert, Alexandre Ntougas, Michaël Tolis, Bertrand Honner, Yadrichnikov Nikolaï, Prince-kombo Bontala, Thomas Bouchard*/
+    color: lightgray;
     text-align: center;
     margin-top: 1rem;
 }
@@ -140,11 +136,11 @@
     /*left: 50%;*/
     /*-webkit-transform: translateX(-50%);*/
     /*transform: translateX(-50%);*/
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
-.modal-info-link:hover {
-    text-decoration: underline;
-}
 
 /*.answer-template-trigger {
     right: -20px !important;

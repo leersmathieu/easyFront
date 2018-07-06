@@ -1239,12 +1239,8 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 }
 
 .modal-info-creators {
-  color: lightgray;
-  margin-top: 0px;
-}
-
-.modal-info-creators {
   /*Powered by the Nine: Saadia Brahimi, Cali Armut, Laurent Hulstaert, Alexandre Ntougas, Michaël Tolis, Bertrand Honner, Yadrichnikov Nikolaï, Prince-kombo Bontala, Thomas Bouchard*/
+  color: lightgray;
   text-align: center;
   margin-top: 1rem;
 }
@@ -1364,6 +1360,10 @@ TERMINAL (CHATBOX)
           box-shadow: inset 0px 0px 5px 2px #E8600C;
 }
 
+.minimize:hover {
+  background-color: lightyellow;
+}
+
 .maximize {
   /*Maximize button*/
   background-color: #2C9DC9;
@@ -1372,11 +1372,20 @@ TERMINAL (CHATBOX)
           box-shadow: inset 0px 0px 5px 2px #000F42;
 }
 
+.maximize:hover {
+  background-color: lightblue;
+  /*if minimize active set to lightgreen */
+}
+
 .close {
   /*Close button*/
   background-color: red;
   -webkit-box-shadow: inset 0px 0px 5px 2px #2B030F;
           box-shadow: inset 0px 0px 5px 2px #2B030F;
+}
+
+.close:hover {
+  background-color: orange;
 }
 
 .fa-terminal {
@@ -1389,19 +1398,6 @@ TERMINAL (CHATBOX)
 /*------------------------
   button hover state
   --------------------------*/
-.minimize:hover {
-  background-color: lightyellow;
-}
-
-.maximize:hover {
-  background-color: lightblue;
-  /*if minimize active set to lightgreen */
-}
-
-.close:hover {
-  background-color: orange;
-}
-
 button {
   border-width: 0px;
   border-style: none;
@@ -1503,7 +1499,7 @@ button:focus {
   text-decoration: underline;
 }
 
-.answer::before {
+.answer:before {
   content: '>';
   display: inline-block;
   padding-right: 5px;
@@ -1641,7 +1637,7 @@ LOGIN PAGE
   pointer-events: none;
 }
 
-#login-interface .call-to-action::before {
+#login-interface .call-to-action:before {
   --size: 0;
   content: '';
   position: absolute;

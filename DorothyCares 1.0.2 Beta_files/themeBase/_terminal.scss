@@ -67,6 +67,9 @@ TERMINAL (CHATBOX)
     /*Minimize button*/
     background-color: orange;
     box-shadow: inset 0px 0px 5px 2px #E8600C;
+    &:hover {
+        background-color: lightyellow;
+    }
 }
 
 .maximize {
@@ -74,12 +77,19 @@ TERMINAL (CHATBOX)
     background-color: #2C9DC9;
     /* If minimize active set to green */
     box-shadow: inset 0px 0px 5px 2px #000F42;
+    &:hover {
+        background-color: lightblue;
+        /*if minimize active set to lightgreen */
+    }
 }
 
 .close {
     /*Close button*/
     background-color: red;
     box-shadow: inset 0px 0px 5px 2px #2B030F;
+    &:hover {
+        background-color: orange;
+    }
 }
 
 .fa-terminal {
@@ -93,28 +103,18 @@ TERMINAL (CHATBOX)
   button hover state
   --------------------------*/
 
-.minimize:hover {
-    background-color: lightyellow;
-}
 
-.maximize:hover {
-    background-color: lightblue;
-    /*if minimize active set to lightgreen */
-}
 
-.close:hover {
-    background-color: orange;
-}
 
 button {
     border-width: 0px;
     border-style: none;
+    &:focus {
+        /* Avoid blue line on click by default on custom button in Crome*/
+        outline: 0;
+    }
 }
 
-button:focus {
-    /* Avoid blue line on click by default on custom button in Crome*/
-    outline: 0;
-}
 
 /*-------------------------------------
   Terminal Content
@@ -126,11 +126,11 @@ button:focus {
     min-height: 45vh;
     max-height: 70%;
     overflow: auto;
+    .message {
+        display: none;
+    }
 }
 
-.terminal-content .message {
-    display: none;
-}
 
 @media screen and (min-width: 640px) {
     .terminal-content .message {
@@ -162,11 +162,11 @@ button:focus {
     /*background: rgba(255,255,255,0.2);*/
     background: rgba(231, 231, 231, 0.68);
     border-radius: 10px;
+    &:hover {
+        background: rgba(255, 255, 255, 1);
+    }
 }
 
-::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 255, 255, 1);
-}
 
 /*--------------------------------------
   Terminal interaction /Text/
@@ -202,38 +202,36 @@ button:focus {
     /*color: #cfffff;*/
     color: #81ffff;
     margin-top: 15px;
+    a {
+        color: white;
+        &:hover {
+           text-decoration: underline;
+        }
+    }
+    &:before {
+        content: '>';
+        display: inline-block;
+        padding-right: 5px;
+    }
 }
 
-.answer a {
-    color: white;
-}
+.user-request {
+    .user-input {
+        min-width: 10px;
+        display: inline-block;
+        &:focus {
+            outline: 0px;
+        }
+    }
 
-.answer a:hover {
-    text-decoration: underline;
-}
-
-.answer::before {
-    content: '>';
-    display: inline-block;
-    padding-right: 5px;
-}
-
-.user-request .user-input {
-    min-width: 10px;
-    display: inline-block;
-}
-
-.user-request .user-input:focus {
-    outline: 0px;
-}
-
-.user-request .terminal-symbol {
-    font-size: 120%;
-    font-weight: bold;
-    -webkit-animation: blink .5s ease-in-out;
-    animation: blink .5s ease-in-out;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
+    .terminal-symbol {
+        font-size: 120%;
+        font-weight: bold;
+        -webkit-animation: blink .5s ease-in-out;
+        animation: blink .5s ease-in-out;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+    }
 }
 
 .terminal-control {

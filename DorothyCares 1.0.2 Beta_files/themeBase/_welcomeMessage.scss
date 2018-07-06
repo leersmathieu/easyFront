@@ -16,13 +16,12 @@ WELCOME MESSAGE
     /*display: none;*/
     opacity: 0;
     transition: opacity ease 0.5s, color ease 0.3s;
+    h1 {
+       font-weight: 100;
+       font-size: 25px;
+    }
+    &:hover {
+        color: lightgrey;
+    }
 }
 
-.welcome-message-style h1 {
-    font-weight: 100;
-    font-size: 25px;
-}
-
-.welcome-message-style:hover {
-    color: lightgrey;
-}

@@ -37,8 +37,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     -webkit-animation: bgColorAnim 300s infinite;
     animation: bgColorAnim 300s infinite;
     z-index: 16;
-    transition: opacity ease 0.3s;
-    
+    transition: opacity ease 0.3s;    
     p {
        cursor: pointer;
        color: white;
@@ -142,7 +141,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     width: 30px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    
+
     .modal-close-btn {
         display: flex;
         justify-content: center;
@@ -153,8 +152,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
         /*width: 6px;*/
         /*background-color: white;*/
         border-radius: 50px;
-        cursor: pointer;
-        
+        cursor: pointer;        
         i {
             font-size: 4rem;
             color: white;
@@ -191,8 +189,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
         /*background-color: #232323;*/
         /*background-color: #fff;*/
         border-radius: 50px;
-        cursor: pointer;
-        
+        cursor: pointer;        
         i {
             font-size: 4rem;
             color: white;
@@ -247,8 +244,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .modal-body-block-content {
     font-weight: 100;
     font-size: 0.85rem;
-    line-height: 1.5;
-    
+    line-height: 1.5;    
     a {
         color: white;
     }
@@ -292,8 +288,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 }
 
 .profile-input-wrapper {
-    display: flex;
-    
+    display: flex;    
     label {
         width: 30%;
         color: white;
