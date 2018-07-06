@@ -1,0 +1,113 @@
+/*
+-----------------------------------------------
+BACKGROUND
+-----------------------------------------------
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+    background-image: url("../img/bg-doro5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /*background-color: #978eff;*/
+    /*font-family: 'Source Code Pro', monospace;*/
+    font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    -webkit-animation: bgColorAnim 300s infinite;
+    animation: bgColorAnim 300s infinite;
+}
+
+@-webkit-keyframes bgColorAnim {
+    0% {
+        background-color: #978EFF;
+    }
+    20% {
+        background-color: #63A9FF;
+    }
+    35% {
+        background-color: #667cbe;
+    }
+    55% {
+        /*background-color: #FF6BAD;*/
+        background-color: #d47fa5;
+    }
+    70% {
+        /*background-color: #DD4493;*/
+        background-color: #b97cbf;
+    }
+    85% {
+        background-color: #7F49DD;
+    }
+    100% {
+        background-color: #978EFF;
+    }
+}
+
+@keyframes bgColorAnim {
+    0% {
+        background-color: #978EFF;
+    }
+    20% {
+        background-color: #63A9FF;
+    }
+    35% {
+        background-color: #667cbe;
+    }
+    55% {
+        /*background-color: #FF6BAD;*/
+        background-color: #d47fa5;
+    }
+    70% {
+        /*background-color: #DD4493;*/
+        background-color: #b97cbf;
+    }
+    85% {
+        background-color: #7F49DD;
+    }
+    100% {
+        background-color: #978EFF;
+    }
+}
+
+/* -------- Background moving particles -------- */
+
+#canvas {
+    position: absolute;
+    display: block;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* -------- Background hiding div used to make elements unclickable -------- */
+
+.hiding-bg-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /*background-color: red;*/
+    z-index: 11;
+    display: none;
+}
+
+/*#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,1);
+    background-color: #978eff;
+    background-image: url('../img/space-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    z-index: -1;
+  }*/

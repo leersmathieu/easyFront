@@ -1,5 +1,5 @@
 let switchTheme = () => {
-    linkCss.setAttribute("href", "DorothyCares%201.0.2%20Beta_files/themeDark.css")
+    linkCss.setAttribute("href", "DorothyCares%201.0.2%20Beta_files/newMain.css")
     console.log(linkCss)
 
 }
