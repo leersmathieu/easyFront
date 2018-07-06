@@ -24,27 +24,27 @@ body {
 
 @-webkit-keyframes bgColorAnim {
     0% {
-        background-color: #978EFF;
+        background-color: $backgroundColor1;
     }
     20% {
-        background-color: #63A9FF;
+        background-color: $backgroundColor2;
     }
     35% {
-        background-color: #667cbe;
+        background-color: $backgroundColor3;
     }
     55% {
         /*background-color: #FF6BAD;*/
-        background-color: #d47fa5;
+        background-color: $backgroundColor4;
     }
     70% {
         /*background-color: #DD4493;*/
-        background-color: #b97cbf;
+        background-color: $backgroundColor5;
     }
     85% {
-        background-color: #7F49DD;
+        background-color: $backgroundColor6;
     }
     100% {
-        background-color: #978EFF;
+        background-color: $backgroundColor7;
     }
 }
 
