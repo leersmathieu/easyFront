@@ -803,28 +803,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   border-bottom-left-radius: 10px;
 }
 
-.modal-header-2 {
-  /* PROFILE */
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  /*left: 0;*/
-  height: 30px;
-  width: 100%;
-  bottom: 0;
-  /*height: 100%;*/
-  /*width: 30px;*/
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-
 .modal-header .modal-close-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -847,6 +825,28 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .modal-header .modal-close-btn i {
   font-size: 4rem;
   color: white;
+}
+
+.modal-header-2 {
+  /* PROFILE */
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*left: 0;*/
+  height: 30px;
+  width: 100%;
+  bottom: 0;
+  /*height: 100%;*/
+  /*width: 30px;*/
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .modal-header-2 .modal-close-btn-2 {

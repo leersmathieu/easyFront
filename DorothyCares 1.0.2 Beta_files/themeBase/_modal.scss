@@ -38,13 +38,14 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     animation: bgColorAnim 300s infinite;
     z-index: 16;
     transition: opacity ease 0.3s;
+    
+    p {
+       cursor: pointer;
+       color: white;
+       /*color: #232323;*/
+    }
 }
 
-.messageModalClose p {
-    cursor: pointer;
-    color: white;
-    /*color: #232323;*/
-}
 
 .messageModal:hover .messageModalClose {
     opacity: 1;
@@ -141,6 +142,24 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     width: 30px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    
+    .modal-close-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        /*height: 50px;*/
+        /*width: 6px;*/
+        /*background-color: white;*/
+        border-radius: 50px;
+        cursor: pointer;
+        
+        i {
+            font-size: 4rem;
+            color: white;
+        }
+    }
 }
 
 .modal-header-2 {
@@ -157,47 +176,33 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     /*width: 30px;*/
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+
+    .modal-close-btn-2 {
+        /* PROFILE */
+        position: relative;
+        top: 60px;
+        /* hide close button (up arrow) for animation */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        /*height: 6px;*/
+        /*width: 50px;*/
+        /*background-color: #232323;*/
+        /*background-color: #fff;*/
+        border-radius: 50px;
+        cursor: pointer;
+        
+        i {
+            font-size: 4rem;
+            color: white;
+        }
+    }
 }
 
-.modal-header .modal-close-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    /*height: 50px;*/
-    /*width: 6px;*/
-    /*background-color: white;*/
-    border-radius: 50px;
-    cursor: pointer;
-}
 
-.modal-header .modal-close-btn i {
-    font-size: 4rem;
-    color: white;
-}
 
-.modal-header-2 .modal-close-btn-2 {
-    /* PROFILE */
-    position: relative;
-    top: 60px;
-    /* hide close button (up arrow) for animation */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 30px;
-    /*height: 6px;*/
-    /*width: 50px;*/
-    /*background-color: #232323;*/
-    /*background-color: #fff;*/
-    border-radius: 50px;
-    cursor: pointer;
-}
 
-.modal-header-2 .modal-close-btn-2 i {
-    font-size: 4rem;
-    color: white;
-}
 
 .modal-body {
     position: fixed;
@@ -243,11 +248,12 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     font-weight: 100;
     font-size: 0.85rem;
     line-height: 1.5;
+    
+    a {
+        color: white;
+    }
 }
 
-.modal-body-block-content a {
-    color: white;
-}
 
 .modal-body-title-container {
     /* PROFILE */
@@ -270,11 +276,12 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     font-size: 2rem;
     /*margin-left: 5em;*/
     color: black;
+    
+    a {
+        color: #978eff;
+    }
 }
 
-.modal-body-title-icons a {
-    color: #978eff;
-}
 
 .profile-details {
     /* PROFILE */
@@ -286,13 +293,14 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .profile-input-wrapper {
     display: flex;
+    
+    label {
+        width: 30%;
+        color: white;
+        text-transform: uppercase;
+    }
 }
 
-.profile-input-wrapper label {
-    width: 30%;
-    color: white;
-    text-transform: uppercase;
-}
 
 .profile-input-wrapper input[type=text],
 .profile-input-wrapper input[type=url] {
