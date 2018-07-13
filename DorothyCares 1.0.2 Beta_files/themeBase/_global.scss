@@ -11,14 +11,16 @@ $backgroundColor2: rgb(17, 32, 50);
 $backgroundColor3: #1b2133;
 $backgroundColor4: #442935;
 $backgroundColor5: #352337;
-$backgroundColor6: rgb(49, 29, 84);
+$backgroundColor6: rgb(49, 29, 84); 
 $backgroundColor7: rgb(50, 47, 85);
+
+
 
 
 // Fonts Family
 
-$textfont1: 'Roboto' monospace;
-$textfont2: 'Knewave';
+$textfont2: 'Roboto' monospace;
+$textfont1: 'Knewave';
 
 
 // Fonts Color
@@ -28,7 +30,18 @@ $DorothyAnswer: #bb7dca;
 $BodyColor: rgb(0, 242, 255); // Dorothy welcome message && User input
 $ModalColor: red;
 
+/*MIXINS*/
 
+//exemple :
+
+// @mixin nomdelafonction ($param1, $param2) {
+//     color: $param1;
+//     background-color: $param2;
+// }
+
+// @include nomdelafonction ("red","blue");
+
+// Y'a certainement du code qui se répète et les mixins peuvents rendre ça bcp plus propre/modulable
 
 
 /*

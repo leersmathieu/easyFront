@@ -157,6 +157,7 @@
 VARIABLE
 ---------
 */
+/*MIXINS*/
 /*
 -----------------------------------------------
 KEYFRAMES FOR CURSOR ANIMATION
@@ -241,7 +242,7 @@ body {
   background-position: center center;
   /*background-color: #978eff;*/
   /*font-family: 'Source Code Pro', monospace;*/
-  font-family: "Roboto" monospace;
+  font-family: "Knewave";
   overflow: hidden;
   height: 100vh;
   width: 100vw;
