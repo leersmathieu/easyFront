@@ -4,14 +4,31 @@ VARIABLE
 ---------
 */
 
+// Background Fog Colors
 
-$backgroundColor1: #978EFF;
-$backgroundColor2: #63A9FF;
-$backgroundColor3: #667cbe;
-$backgroundColor4: #d47fa5;
-$backgroundColor5: #b97cbf;
-$backgroundColor6: #7F49DD;
-$backgroundColor7: #978EFF;
+$backgroundColor1: rgb(15, 14, 26);
+$backgroundColor2: rgb(17, 32, 50);
+$backgroundColor3: #1b2133;
+$backgroundColor4: #442935;
+$backgroundColor5: #352337;
+$backgroundColor6: rgb(49, 29, 84);
+$backgroundColor7: rgb(50, 47, 85);
+
+
+// Fonts Family
+
+$textfont1: 'Roboto' monospace;
+$textfont2: 'Knewave';
+
+
+// Fonts Color
+
+$windowName: red;
+$DorothyAnswer: #bb7dca;
+$BodyColor: rgb(0, 242, 255); // Dorothy welcome message && User input
+$ModalColor: red;
+
+
 
 
 /*

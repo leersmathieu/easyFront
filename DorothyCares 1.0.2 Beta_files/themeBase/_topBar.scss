@@ -48,3 +48,50 @@
     text-align: left;
     width: 90%;
 }
+
+#menu-deroulant {
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+    width: 180px;
+    ul {
+        padding:0;
+        margin:0;
+        list-style:none;
+        text-align: center;
+    }
+    li {     
+        border-radius: 6px;
+        margin-bottom:2px;    
+        li { 
+            max-height:0;
+            overflow: hidden;
+            transition: all .15s; 
+            border-radius:0;     
+            border:none;
+            margin:0;
+        }
+    }
+    a {
+        display:block;
+        text-decoration: none;
+        color: #fff;
+        padding: 8px 0;
+        font-family: verdana;
+        font-size:1.2em;
+    } 
+  }
+
+  #menu-deroulant ul li a, #menu-deroulant li:hover li a {
+    font-size:1em;
+  }
+
+  #menu-deroulant ul li:last-child {
+     border-radius: 0 0 6px 6px;
+     border:none;
+  }
+
+  #menu-deroulant li:hover li {
+    max-height: 15em;
+  }
