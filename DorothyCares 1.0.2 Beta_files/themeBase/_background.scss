@@ -14,7 +14,7 @@ body {
     background-position: center center;
     /*background-color: #978eff;*/
     /*font-family: 'Source Code Pro', monospace;*/
-    font-family: 'Roboto Mono', monospace;
+    font-family: $fontRobotoMono; 
     overflow: hidden;
     height: 100vh;
     width: 100vw;

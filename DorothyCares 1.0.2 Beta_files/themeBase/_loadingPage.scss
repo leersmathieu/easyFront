@@ -54,7 +54,6 @@ LOGIN PAGE
     }
     .call-to-action {
         width: 100%;
-        font-family: 'Roboto', sans-serif;
         /* Google sign in guidelines [Roboto] */
         font-weight: 500;
         /* Google sign in guidelines [Roboto - Medium] */
@@ -65,12 +64,12 @@ LOGIN PAGE
         background: #7968ff;
         padding: 1em;
         border: none;
-        color: white;
-        font-size: 1.2em;
         cursor: pointer;
         outline: none;
         overflow: hidden;
         border-radius: 100px;
+        @include fontStyle (white,1.2em,$fontRoboto);
+
         span {
             position: relative;
             pointer-events: none;

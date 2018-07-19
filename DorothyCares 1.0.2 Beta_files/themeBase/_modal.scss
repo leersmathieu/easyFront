@@ -305,7 +305,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     border-bottom: 1px solid black;
     outline: none;
     width: 60%;
-    font-family: 'Roboto Mono', monospace;
+    font-family: $fontRobotoMono;
     font-weight: 300;
     color: white;
 }
@@ -363,7 +363,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     /*background-color: #978eff;*/
     background-color: transparent;
     cursor: pointer;
-    font-family: 'Roboto Mono', monospace;
+    font-family: $fontRobotoMono;
     font-weight: 700;
     width: 50%;
     transition: all ease 0.3s;
@@ -383,7 +383,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     /*background-color: #978eff;*/
     background-color: transparent;
     cursor: pointer;
-    font-family: 'Roboto Mono', monospace;
+    font-family: $fontRobotoMono;
     font-weight: 700;
     width: 50%;
     transition: all ease 0.3s;

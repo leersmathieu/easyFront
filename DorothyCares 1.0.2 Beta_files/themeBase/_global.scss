@@ -6,14 +6,13 @@ VARIABLE
 
 // Fonts Family
 
-$textfont1: 'Roboto' monospace;
-$textfont1-2: 'Roboto', sans-serif;
-$textfont1-3: 'Roboto Mono', monospace;
-$textfont2: 'Knewave';
+// $fontRoboto: 'Roboto' monospace;
+$fontRoboto: 'Roboto', sans-serif;
+$fontRobotoMono: 'Roboto Mono', monospace;
+// $fontKnewave: 'Knewave';
 $textfont3: 'Source Code Pro';
 $textfont4: 'Amatic SC'; 
 $textfont5: 'verdana';
-
 
 // Background Fog Colors
 
@@ -61,19 +60,17 @@ $BallItemBorder: rgb(84, 201, 255);
 $BallItemInside: white;
 $BallCalendar: lightgrey;
 
-/*MIXINS*/
+/*MIXINS*/ 
 
-//exemple :
 
-// @mixin nomdelafonction ($param1, $param2) {
-//     color: $param1;
-//     background-color: $param2;
-// }
+@mixin fontStyle ($color, $size, $familly) { 
+    color: $color;
+    font-size: $size;
+    font-family: $familly;
+}
 
-// @include nomdelafonction ("red","blue");
-
-// Y'a certainement du code qui se répète et les mixins peuvents rendre ça bcp plus propre/modulable
-
+//exemple
+// @include nomdelafonction ("red","15px",$textfont1); 
 
 /*
 -----------------------------------------------

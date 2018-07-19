@@ -290,7 +290,7 @@ body {
   background-position: center center;
   /*background-color: #978eff;*/
   /*font-family: 'Source Code Pro', monospace;*/
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   overflow: hidden;
   height: 100vh;
   width: 100vw;
@@ -1056,7 +1056,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   border-bottom: 1px solid black;
   outline: none;
   width: 60%;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 300;
   color: white;
 }
@@ -1124,7 +1124,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   /*background-color: #978eff;*/
   background-color: transparent;
   cursor: pointer;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 700;
   width: 50%;
   -webkit-transition: all ease 0.3s;
@@ -1145,7 +1145,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   /*background-color: #978eff;*/
   background-color: transparent;
   cursor: pointer;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 700;
   width: 50%;
   -webkit-transition: all ease 0.3s;
@@ -1180,7 +1180,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 700;
   font-size: 0.8rem;
   width: 70px;
@@ -1672,7 +1672,6 @@ LOGIN PAGE
 
 #login-interface .call-to-action {
   width: 100%;
-  font-family: 'Roboto', sans-serif;
   /* Google sign in guidelines [Roboto] */
   font-weight: 500;
   /* Google sign in guidelines [Roboto - Medium] */
@@ -1683,12 +1682,13 @@ LOGIN PAGE
   background: #7968ff;
   padding: 1em;
   border: none;
-  color: white;
-  font-size: 1.2em;
   cursor: pointer;
   outline: none;
   overflow: hidden;
   border-radius: 100px;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
 }
 
 #login-interface .call-to-action span {
