@@ -6,60 +6,56 @@ VARIABLE
 
 // Fonts Family
 
-$textfont1: 'Roboto' monospace;
+$textfont1: 'VT323';
 $textfont1-2: 'Roboto', sans-serif;
 $textfont1-3: 'Roboto Mono', monospace;
 $textfont2: 'Knewave';
 $textfont3: 'Source Code Pro';
 $textfont4: 'Amatic SC'; 
 $textfont5: 'verdana';
-
+$textfont5: 'VT323';
 
 // Background Fog Colors
 
-$backgroundColor1: #978EFF;
-$backgroundColor2: #63A9FF;
-$backgroundColor3: #667cbe;
-$backgroundColor4: #d47fa5;
-$backgroundColor5: #b97cbf;
-$backgroundColor6: #7F49DD;
-$backgroundColor7: #978EFF;
+$backgroundColor1: rgb(0, 0, 0);
+$backgroundColor2: rgb(0, 0, 0);
+$backgroundColor3: rgb(0, 0, 0);
+$backgroundColor4: rgb(0, 0, 0);
+$backgroundColor5: rgb(0, 0, 0);
+$backgroundColor6: rgb(0, 0, 0);
+$backgroundColor7: rgb(0, 0, 0);
 
 
 // Fonts Color
 
 // Interface
 
-$DorothyInterface: rgb(93, 192, 209); // Dorothy Interface text color
-$DateTime: white; // Couleur Date et Heure
+$DorothyInterface: rgb(64, 226, 0); // Dorothy Interface text color
+$DateTime: rgb(64, 226, 0); // Couleur Date et Heure
 
 // Terminal
 
-$DorothyAnswer: rgb(0, 242, 255); // Terminal - Dorothy answer
-$UserInput: #bb7dca; // Terminal - Dorothy welcome message && User input
+$DorothyAnswer: rgb(64, 226, 0); // Terminal - Dorothy answer
+$UserInput: rgb(64, 226, 0); // Terminal - Dorothy welcome message && User input
 
 
 // About Modal
 
-$ModalColor: white; // About - Dorothy Version
-$LinkAbout: white; // About - Link
-
-
-
-
+$ModalColor: rgb(64, 226, 0);; // About - Dorothy Version
+$LinkAbout: rgb(64, 226, 0); // About - Link
 
 // Ball Menu
 
-$FirstColorBall: rgb(255, 255, 255); // Ball Menu - Background
-$SecondColorBall: rgb(161, 255, 243); // Ball Menu - Halo
-$FirstColorBallHover: rgba(233, 122, 255, 0.611); // Ball Menu - Left Side Hover
-$SecondColorBallHover: rgb(0, 0, 0); // Ball Menu - Halo Hover
+$FirstColorBall: rgb(64, 226, 0);
+$SecondColorBall: rgb(153, 255, 113);
+$FirstColorBallHover: rgb(47, 165, 0);
+$SecondColorBallHover: rgb(150, 255, 108);
 
-$BallItem: rgba(111, 255, 236, 0.12); // Ball Menu - Icones Periph
-$BallItemHover: lightgrey;
+$BallItem: rgba(255, 255, 255, 0.12);
+$BallItemHover: rgb(64, 226, 0);;
 $BallItemBorder: rgb(84, 201, 255);
-$BallItemInside: white;
-$BallCalendar: lightgrey;
+$BallItemInside: rgb(64, 226, 0);;
+$BallCalendar: rgb(64, 226, 0);;
 
 /*MIXINS*/
 

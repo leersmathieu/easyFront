@@ -17,26 +17,26 @@ $textfont5: 'verdana';
 
 // Background Fog Colors
 
-$backgroundColor1: #978EFF;
-$backgroundColor2: #63A9FF;
-$backgroundColor3: #667cbe;
-$backgroundColor4: #d47fa5;
-$backgroundColor5: #b97cbf;
-$backgroundColor6: #7F49DD;
-$backgroundColor7: #978EFF;
+$backgroundColor1: rgb(120, 205, 211);
+$backgroundColor2: rgb(63, 193, 197);
+$backgroundColor3: #3ae5fc;
+$backgroundColor4: #57d8d2;
+$backgroundColor5: #43ffe6;
+$backgroundColor6: rgb(28, 152, 168); 
+$backgroundColor7: rgb(26, 236, 243);
 
 
 // Fonts Color
 
 // Interface
 
-$DorothyInterface: rgb(93, 192, 209); // Dorothy Interface text color
+$DorothyInterface: rgb(255, 255, 255); // Dorothy Interface text color
 $DateTime: white; // Couleur Date et Heure
 
 // Terminal
 
-$DorothyAnswer: rgb(0, 242, 255); // Terminal - Dorothy answer
-$UserInput: #bb7dca; // Terminal - Dorothy welcome message && User input
+$DorothyAnswer: rgb(255, 255, 255); // Terminal - Dorothy answer
+$UserInput: #ffdcb4; // Terminal - Dorothy welcome message && User input
 
 
 // About Modal
@@ -44,18 +44,14 @@ $UserInput: #bb7dca; // Terminal - Dorothy welcome message && User input
 $ModalColor: white; // About - Dorothy Version
 $LinkAbout: white; // About - Link
 
-
-
-
-
 // Ball Menu
 
-$FirstColorBall: rgb(255, 255, 255); // Ball Menu - Background
-$SecondColorBall: rgb(161, 255, 243); // Ball Menu - Halo
-$FirstColorBallHover: rgba(233, 122, 255, 0.611); // Ball Menu - Left Side Hover
-$SecondColorBallHover: rgb(0, 0, 0); // Ball Menu - Halo Hover
+$FirstColorBall: rgb(251, 255, 0);
+$SecondColorBall: rgb(255, 238, 0);
+$FirstColorBallHover: rgb(116, 93, 0);
+$SecondColorBallHover: rgb(242, 255, 0);
 
-$BallItem: rgba(111, 255, 236, 0.12); // Ball Menu - Icones Periph
+$BallItem: rgba(255, 220, 19, 0.747);
 $BallItemHover: lightgrey;
 $BallItemBorder: rgb(84, 201, 255);
 $BallItemInside: white;

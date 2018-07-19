@@ -1,13 +1,33 @@
-let switchTheme = () => {
-    linkCss.setAttribute("href", "DorothyCares%201.0.2%20Beta_files/mainStyle/newMain.css")
+let theme = 0
+const themeChoice = ["newMain", "themeNightmare", "themeSunnyDay", "themeCalmMind", "themeEco"];
+const switchThemeNext = () => 
+{
+    theme += 1
+    if(theme == themeChoice.length) 
+    {
+        theme = 0
+    }
+    linkCss.setAttribute("href", "DorothyCares%201.0.2%20Beta_files/mainStyle/"+themeChoice[theme]+".css")
+    document.getElementById("FirstTheme").innerHTML = themeChoice[theme]
     console.log(linkCss)
-
 }
 
+const switchThemeBack = () => 
+{
+    theme -= 1
+    if(theme < 0)
+    {
+        theme = themeChoice.length-1
+    }
+    linkCss.setAttribute("href", "DorothyCares%201.0.2%20Beta_files/mainStyle/"+themeChoice[theme]+".css")
+    document.getElementById("FirstTheme").innerHTML = themeChoice[theme]
+    console.log(linkCss)
+}
 
-let divTheme = document.querySelector('.os-bar__theme');
+document.getElementById("FirstTheme").innerHTML = themeChoice[theme]
 
+
+// let divTheme = document.querySelector('.os-bar__theme');
 let linkCss = document.querySelector('#thatlink');
+// divTheme.addEventListener('click', switchTheme );
 
-
-divTheme.addEventListener('click', switchTheme )

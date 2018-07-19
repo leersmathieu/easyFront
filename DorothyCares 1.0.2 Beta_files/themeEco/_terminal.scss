@@ -182,6 +182,7 @@ button {
 
 .request {
     padding-left: 20px;
+    color: $UserInput;
 }
 
 .user-request:first-type {
@@ -200,7 +201,7 @@ button {
 
 .answer {
     /*color: #cfffff;*/
-    color: #81ffff;
+    color: $DorothyAnswer;
     margin-top: 15px;
     a {
         color: white;
@@ -219,6 +220,7 @@ button {
     .user-input {
         min-width: 10px;
         display: inline-block;
+        color: $UserInput;
         &:focus {
             outline: 0px;
         }
