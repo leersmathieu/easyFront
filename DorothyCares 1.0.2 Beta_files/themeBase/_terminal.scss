@@ -200,7 +200,7 @@ button {
 
 .answer {
     /*color: #cfffff;*/
-    color: $DorothyAnswer;
+    color: #81ffff;
     margin-top: 15px;
     a {
         color: white;
@@ -219,7 +219,6 @@ button {
     .user-input {
         min-width: 10px;
         display: inline-block;
-        color: $BodyColor;
         &:focus {
             outline: 0px;
         }

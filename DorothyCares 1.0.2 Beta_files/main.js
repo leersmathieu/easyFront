@@ -762,7 +762,7 @@ const opts = {
   defaultSpeed: 0.01,
   variantSpeed: 0.3,
   defaultRadius: 0.5,
-  variantRadius: 0.5,
+  variantRadius: 1,
   linkRadius: 200,
 };
 

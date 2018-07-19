@@ -4,31 +4,62 @@ VARIABLE
 ---------
 */
 
-// Background Fog Colors
-
-$backgroundColor1: rgb(15, 14, 26);
-$backgroundColor2: rgb(17, 32, 50);
-$backgroundColor3: #1b2133;
-$backgroundColor4: #442935;
-$backgroundColor5: #352337;
-$backgroundColor6: rgb(49, 29, 84); 
-$backgroundColor7: rgb(50, 47, 85);
-
-
-
-
 // Fonts Family
 
-$textfont2: 'Roboto' monospace;
-$textfont1: 'Knewave';
+$textfont1: 'Roboto' monospace;
+$textfont1-2: 'Roboto', sans-serif;
+$textfont1-3: 'Roboto Mono', monospace;
+$textfont2: 'Knewave';
+$textfont3: 'Source Code Pro';
+$textfont4: 'Amatic SC'; 
+$textfont5: 'verdana';
+
+
+// Background Fog Colors
+
+$backgroundColor1: #978EFF;
+$backgroundColor2: #63A9FF;
+$backgroundColor3: #667cbe;
+$backgroundColor4: #d47fa5;
+$backgroundColor5: #b97cbf;
+$backgroundColor6: #7F49DD;
+$backgroundColor7: #978EFF;
 
 
 // Fonts Color
 
-$windowName: red;
-$DorothyAnswer: #bb7dca;
-$BodyColor: rgb(0, 242, 255); // Dorothy welcome message && User input
-$ModalColor: red;
+// Interface
+
+$DorothyInterface: rgb(93, 192, 209); // Dorothy Interface text color
+$DateTime: white; // Couleur Date et Heure
+
+// Terminal
+
+$DorothyAnswer: rgb(0, 242, 255); // Terminal - Dorothy answer
+$UserInput: #bb7dca; // Terminal - Dorothy welcome message && User input
+
+
+// About Modal
+
+$ModalColor: white; // About - Dorothy Version
+$LinkAbout: white; // About - Link
+
+
+
+
+
+// Ball Menu
+
+$FirstColorBall: rgb(255, 255, 255); // Ball Menu - Background
+$SecondColorBall: rgb(161, 255, 243); // Ball Menu - Halo
+$FirstColorBallHover: rgba(233, 122, 255, 0.611); // Ball Menu - Left Side Hover
+$SecondColorBallHover: rgb(0, 0, 0); // Ball Menu - Halo Hover
+
+$BallItem: rgba(111, 255, 236, 0.12); // Ball Menu - Icones Periph
+$BallItemHover: lightgrey;
+$BallItemBorder: rgb(84, 201, 255);
+$BallItemInside: white;
+$BallCalendar: lightgrey;
 
 /*MIXINS*/
 
