@@ -5,7 +5,7 @@
     display: inline-block;
     .tooltiptext {
         visibility: hidden;
-        font-family: 'Roboto Mono', monospace;
+        font-family: $fontRobotoMono;
         font-weight: 700;
         font-size: 0.8rem;
         width: 70px;

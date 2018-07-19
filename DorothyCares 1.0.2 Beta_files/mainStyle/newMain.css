@@ -289,8 +289,8 @@ body {
   background-size: cover;
   background-position: center center;
   /*background-color: #978eff;*/
-  /*font-family: 'Source Code Pro', monospace;*/
-  font-family: 'Roboto Mono', monospace;
+  /*font-family: $fontSourceCode, monospace;*/
+  font-family: "Roboto Mono", monospace;
   overflow: hidden;
   height: 100vh;
   width: 100vw;
@@ -480,7 +480,7 @@ body {
   text-decoration: none;
   color: #fff;
   padding: 8px 0;
-  font-family: verdana;
+  font-family: "verdana";
   font-size: 1.2em;
 }
 
@@ -519,8 +519,8 @@ BALL & MENU
   /*box-shadow: inset 80px -10px 100px 5px #56cbf9, 0px 0px 100px -20px #abddff; */
   /* Or this */
   /*box-shadow: inset 80px -20px 100px 5px #55C9BE, 0px 0px 100px -20px #ABDDFF; */
-  -webkit-box-shadow: inset 80px -10px 100px 5px white, 0px 0px 100px -20px #a1fff3;
-          box-shadow: inset 80px -10px 100px 5px white, 0px 0px 100px -20px #a1fff3;
+  -webkit-box-shadow: inset 80px -10px 100px 5px #8ee7db, 0px 0px 100px -20px #abddff;
+          box-shadow: inset 80px -10px 100px 5px #8ee7db, 0px 0px 100px -20px #abddff;
   opacity: 0;
   /* ------------ toggle maybe ------------ */
   -webkit-transition: -webkit-box-shadow ease 0.5s;
@@ -531,8 +531,8 @@ BALL & MENU
 
 .dorothy-ball:hover {
   /*box-shadow: inset -80px -10px 100px 5px #56cbf9, 40px -10px 100px -40px #6896b5;*/
-  -webkit-box-shadow: inset -80px -10px 100px 5px rgba(233, 122, 255, 0.611), 40px -10px 100px -40px black;
-          box-shadow: inset -80px -10px 100px 5px rgba(233, 122, 255, 0.611), 40px -10px 100px -40px black;
+  -webkit-box-shadow: inset -80px -10px 100px 5px #a69df0, 40px -10px 100px -40px #6896b5;
+          box-shadow: inset -80px -10px 100px 5px #a69df0, 40px -10px 100px -40px #6896b5;
 }
 
 .ball-menu {
@@ -552,8 +552,8 @@ BALL & MENU
   height: 50px;
   /*background-color: #56cbf9;*/
   /*background-color: #8fdaff;*/
-  background-color: rgba(111, 255, 236, 0.12);
-  border: 2px solid #54c9ff;
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 2px solid white;
   border-radius: 100%;
   position: absolute;
   z-index: 5;
@@ -563,7 +563,7 @@ BALL & MENU
 }
 
 .ball-menu-item:hover {
-  background-color: lightgrey;
+  background-color: #645ea0;
 }
 
 .ball-menu-item i {
@@ -1056,7 +1056,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   border-bottom: 1px solid black;
   outline: none;
   width: 60%;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 300;
   color: white;
 }
@@ -1124,7 +1124,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   /*background-color: #978eff;*/
   background-color: transparent;
   cursor: pointer;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 700;
   width: 50%;
   -webkit-transition: all ease 0.3s;
@@ -1145,7 +1145,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   /*background-color: #978eff;*/
   background-color: transparent;
   cursor: pointer;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 700;
   width: 50%;
   -webkit-transition: all ease 0.3s;
@@ -1180,7 +1180,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 700;
   font-size: 0.8rem;
   width: 70px;
@@ -1672,7 +1672,6 @@ LOGIN PAGE
 
 #login-interface .call-to-action {
   width: 100%;
-  font-family: 'Roboto', sans-serif;
   /* Google sign in guidelines [Roboto] */
   font-weight: 500;
   /* Google sign in guidelines [Roboto - Medium] */
@@ -1683,12 +1682,13 @@ LOGIN PAGE
   background: #7968ff;
   padding: 1em;
   border: none;
-  color: white;
-  font-size: 1.2em;
   cursor: pointer;
   outline: none;
   overflow: hidden;
   border-radius: 100px;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
 }
 
 #login-interface .call-to-action span {
