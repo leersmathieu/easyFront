@@ -289,7 +289,7 @@ body {
   background-size: cover;
   background-position: center center;
   /*background-color: #978eff;*/
-  /*font-family: 'Source Code Pro', monospace;*/
+  /*font-family: $fontSourceCode, monospace;*/
   font-family: "Roboto Mono", monospace;
   overflow: hidden;
   height: 100vh;
@@ -480,7 +480,7 @@ body {
   text-decoration: none;
   color: #fff;
   padding: 8px 0;
-  font-family: verdana;
+  font-family: "verdana";
   font-size: 1.2em;
 }
 
@@ -519,8 +519,8 @@ BALL & MENU
   /*box-shadow: inset 80px -10px 100px 5px #56cbf9, 0px 0px 100px -20px #abddff; */
   /* Or this */
   /*box-shadow: inset 80px -20px 100px 5px #55C9BE, 0px 0px 100px -20px #ABDDFF; */
-  -webkit-box-shadow: inset 80px -10px 100px 5px white, 0px 0px 100px -20px #a1fff3;
-          box-shadow: inset 80px -10px 100px 5px white, 0px 0px 100px -20px #a1fff3;
+  -webkit-box-shadow: inset 80px -10px 100px 5px #8ee7db, 0px 0px 100px -20px #abddff;
+          box-shadow: inset 80px -10px 100px 5px #8ee7db, 0px 0px 100px -20px #abddff;
   opacity: 0;
   /* ------------ toggle maybe ------------ */
   -webkit-transition: -webkit-box-shadow ease 0.5s;
@@ -531,8 +531,8 @@ BALL & MENU
 
 .dorothy-ball:hover {
   /*box-shadow: inset -80px -10px 100px 5px #56cbf9, 40px -10px 100px -40px #6896b5;*/
-  -webkit-box-shadow: inset -80px -10px 100px 5px rgba(233, 122, 255, 0.611), 40px -10px 100px -40px black;
-          box-shadow: inset -80px -10px 100px 5px rgba(233, 122, 255, 0.611), 40px -10px 100px -40px black;
+  -webkit-box-shadow: inset -80px -10px 100px 5px #a69df0, 40px -10px 100px -40px #6896b5;
+          box-shadow: inset -80px -10px 100px 5px #a69df0, 40px -10px 100px -40px #6896b5;
 }
 
 .ball-menu {
@@ -552,8 +552,8 @@ BALL & MENU
   height: 50px;
   /*background-color: #56cbf9;*/
   /*background-color: #8fdaff;*/
-  background-color: rgba(111, 255, 236, 0.12);
-  border: 2px solid #54c9ff;
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 2px solid white;
   border-radius: 100%;
   position: absolute;
   z-index: 5;
@@ -563,7 +563,7 @@ BALL & MENU
 }
 
 .ball-menu-item:hover {
-  background-color: lightgrey;
+  background-color: #645ea0;
 }
 
 .ball-menu-item i {

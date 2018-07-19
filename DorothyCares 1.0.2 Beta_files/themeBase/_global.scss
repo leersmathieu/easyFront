@@ -6,13 +6,15 @@ VARIABLE
 
 // Fonts Family
 
+//font en COMMENTAIRE = PAS utilisée
+
 // $fontRoboto: 'Roboto' monospace;
 $fontRoboto: 'Roboto', sans-serif;
 $fontRobotoMono: 'Roboto Mono', monospace;
 // $fontKnewave: 'Knewave';
-$textfont3: 'Source Code Pro';
-$textfont4: 'Amatic SC'; 
-$textfont5: 'verdana';
+// $fontSourceCode: 'Source Code Pro'; // n'est utilisée que dans un commentaire ...
+// $fontAmatic: 'Amatic SC'; 
+$fontVerdana: 'verdana';
 
 // Background Fog Colors
 
@@ -25,40 +27,39 @@ $backgroundColor6: #7F49DD;
 $backgroundColor7: #978EFF;
 
 
-// Fonts Color
+//// Fonts Color
 
 // Interface
 
-$DorothyInterface: rgb(93, 192, 209); // Dorothy Interface text color
-$DateTime: white; // Couleur Date et Heure
+$fontColorDorothyInterface: rgb(93, 192, 209), ; // Non utilisée ? 
+$fontColorDateTime: white; // Couleur Date et Heure // Non utilisée ? oO
 
 // Terminal
 
-$DorothyAnswer: rgb(0, 242, 255); // Terminal - Dorothy answer
-$UserInput: #bb7dca; // Terminal - Dorothy welcome message && User input
+$fontColorDorothyAnswer: rgb(0, 242, 255); // Terminal - Dorothy answer // non utilisé ? oO et ce n'est même pas la couleur de base ==> #81ffff // wtf
+$fontColorUserInput: #bb7dca; // Terminal - Dorothy welcome message && User input // non utilisée ? 
 
 
 // About Modal
 
-$ModalColor: white; // About - Dorothy Version
-$LinkAbout: white; // About - Link
+$fontColorModal: white; // About - Dorothy Version // non utilisée ? oO
+$fontColorLinkAbout: white; // About - Link // non utilisée ?
 
-
-
+////
 
 
 // Ball Menu
 
-$FirstColorBall: rgb(255, 255, 255); // Ball Menu - Background
-$SecondColorBall: rgb(161, 255, 243); // Ball Menu - Halo
-$FirstColorBallHover: rgba(233, 122, 255, 0.611); // Ball Menu - Left Side Hover
-$SecondColorBallHover: rgb(0, 0, 0); // Ball Menu - Halo Hover
+$colorBall1: #8ee7db; // Ball Menu - Background // pourquoi c'était plus les valeurs d'origine ici ?
+$colorBall2: #abddff; // Ball Menu - Halo
+$colorBallHover1: #a69df0; // Ball Menu - Left Side Hover
+$collorBallHover2: #6896b5; // Ball Menu - Halo Hover
 
-$BallItem: rgba(111, 255, 236, 0.12); // Ball Menu - Icones Periph
-$BallItemHover: lightgrey;
-$BallItemBorder: rgb(84, 201, 255);
-$BallItemInside: white;
-$BallCalendar: lightgrey;
+$backgroundBallItem: rgba(255, 255, 255, 0.12); // Ball Menu - Icones Periph // pareille ici
+$backgroundBallItemHover: #645ea0;
+$borderColorBallItem: white;
+$colorLogoBallItem: white;
+$unavailableBallCalendar: lightgrey;
 
 /*MIXINS*/ 
 
@@ -70,7 +71,7 @@ $BallCalendar: lightgrey;
 }
 
 //exemple
-// @include nomdelafonction ("red","15px",$textfont1); 
+// @include fontStyle ($fontColorModal,2em,$fontRoboto); 
 
 /*
 -----------------------------------------------
