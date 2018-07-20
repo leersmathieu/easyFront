@@ -16,36 +16,36 @@ $fontRobotoMono: 'Roboto Mono', monospace;
 // $fontAmatic: 'Amatic SC'; 
 $fontVerdana: 'verdana';
 
-// Background Fog Colors
+// Background Fog Colors && First Color Charte
 
-$backgroundColor1: #978EFF;
+$backgroundColor1: #978EFF; // <== base color / ref color
 $backgroundColor2: #63A9FF;
 $backgroundColor3: #667cbe;
 $backgroundColor4: #d47fa5;
 $backgroundColor5: #b97cbf;
 $backgroundColor6: #7F49DD;
-$backgroundColor7: #978EFF;
+
+$bodyColor: rgba(255, 255, 255, 1);
+$colorWelcomeMessage: $bodyColor;
 
 
-//// Fonts Color
 
 // Interface
 
-$fontColorDorothyInterface: rgb(93, 192, 209), ; // Non utilisée ? 
-$fontColorDateTime: white; // Couleur Date et Heure // Non utilisée ? oO
+$fontColorDateTime: rgba(255, 255, 255, 0.9); // date font color
 
 // Terminal
 
-$fontColorDorothyAnswer: rgb(0, 242, 255); // Terminal - Dorothy answer // non utilisé ? oO et ce n'est même pas la couleur de base ==> #81ffff // wtf
-$fontColorUserInput: #bb7dca; // Terminal - Dorothy welcome message && User input // non utilisée ? 
+$fontColorDorothyAnswer: #81ffff; // Terminal - Dorothy answer // 
 
 
-// About Modal
+// Modal
 
-$fontColorModal: white; // About - Dorothy Version // non utilisée ? oO
-$fontColorLinkAbout: white; // About - Link // non utilisée ?
-
-////
+$fontColorModal: white; //global font color for modal
+$fontColorModalCreators: lightgray; 
+$borderStyleModal: 2px solid white; //used behind "save" button
+$logoutButtonHover: #e17474;
+$colorBoxShadowModal: #0D1321;
 
 
 // Ball Menu
@@ -72,6 +72,7 @@ $unavailableBallCalendar: lightgrey;
 
 //exemple
 // @include fontStyle ($fontColorModal,2em,$fontRoboto); 
+
 
 /*
 -----------------------------------------------
