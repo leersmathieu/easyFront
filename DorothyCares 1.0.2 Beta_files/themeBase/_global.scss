@@ -20,8 +20,6 @@ $backgroundColor5: #b97cbf;
 $backgroundColor6: #7F49DD;
 
 $bodyColor: rgba(255, 255, 255, 1);
-$colorWelcomeMessage: $bodyColor;
-$colorWelacomeMessageHover: lightgrey;
 
 
 
@@ -31,6 +29,9 @@ $colorWelacomeMessageHover: lightgrey;
 $fontColorDateTime: rgba(255, 255, 255, 0.9); // date font color
 $fontColorMenuTheme: white;
 
+$colorWelcomeMessage: $bodyColor;
+$colorWelacomeMessageHover: lightgrey;
+
 // Terminal
 
 $fontColorDorothyAnswer: #81ffff; // Terminal - Dorothy answer // 
@@ -39,6 +40,7 @@ $fontColorDorothyAnswer: #81ffff; // Terminal - Dorothy answer //
 // Modal
 
 $fontColorModal: white; //global font color for modal
+
 $fontColorModalCreators: lightgray; 
 $borderStyleModal: 2px solid white; //used behind "save" button
 $logoutButtonHover: #e17474;
@@ -47,12 +49,12 @@ $colorBoxShadowModal: #0D1321;
 
 // Ball Menu
 
-$colorBall1: #8ee7db; // Ball Menu - Background // pourquoi c'était plus les valeurs d'origine ici ?
-$colorBall2: #abddff; // Ball Menu - Halo
-$colorBallHover1: #a69df0; // Ball Menu - Left Side Hover
-$collorBallHover2: #6896b5; // Ball Menu - Halo Hover
+$colorBall1: #8ee7db; 
+$colorBall2: #abddff; 
+$colorBallHover1: #a69df0; 
+$collorBallHover2: #6896b5; 
 
-$backgroundBallItem: rgba(255, 255, 255, 0.12); // Ball Menu - Icones Periph // pareille ici
+$backgroundBallItem: rgba(255, 255, 255, 0.12); // Ball Menu - Icones Periph 
 $backgroundBallItemHover: #645ea0;
 $borderColorBallItem: white;
 $colorLogoBallItem: white;
