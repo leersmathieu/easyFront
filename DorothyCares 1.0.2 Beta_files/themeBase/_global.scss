@@ -6,14 +6,8 @@ VARIABLE
 
 // Fonts Family
 
-//font en COMMENTAIRE = PAS utilisée
-
-// $fontRoboto: 'Roboto' monospace;
 $fontRoboto: 'Roboto', sans-serif;
 $fontRobotoMono: 'Roboto Mono', monospace;
-// $fontKnewave: 'Knewave';
-// $fontSourceCode: 'Source Code Pro'; // n'est utilisée que dans un commentaire ...
-// $fontAmatic: 'Amatic SC'; 
 $fontVerdana: 'verdana';
 
 // Background Fog Colors && First Color Charte
@@ -27,12 +21,15 @@ $backgroundColor6: #7F49DD;
 
 $bodyColor: rgba(255, 255, 255, 1);
 $colorWelcomeMessage: $bodyColor;
+$colorWelacomeMessageHover: lightgrey;
+
 
 
 
 // Interface
 
 $fontColorDateTime: rgba(255, 255, 255, 0.9); // date font color
+$fontColorMenuTheme: white;
 
 // Terminal
 

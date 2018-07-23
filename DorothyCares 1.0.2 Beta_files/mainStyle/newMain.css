@@ -397,25 +397,6 @@ body {
   right: 15px;
 }
 
-.os-bar__windows-item {
-  cursor: pointer;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-width: 25px;
-  width: 20%;
-  max-width: 250px;
-  height: 100%;
-  overflow: hidden;
-  padding: 2px;
-  color: white;
-  margin: 0px 5px;
-}
-
 .os-bar__date-time {
   position: absolute;
   display: inline-block;
@@ -472,7 +453,7 @@ body {
 #menu-deroulant a {
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: white;
   padding: 8px 0;
   font-family: "verdana";
   font-size: 1.2em;
