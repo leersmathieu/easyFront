@@ -40,7 +40,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     transition: opacity ease 0.3s;    
     p {
        cursor: pointer;
-       color: white;
+       color: $fontColorModal;
        /*color: #232323;*/
     }
 }
@@ -74,7 +74,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     animation: bgColorAnim 300s infinite;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    box-shadow: -1px 1px 80px -20px #0D1321;
+    box-shadow: -1px 1px 80px -20px $colorBoxShadowModal;
     transition: right ease 0.5s;
     z-index: 12;
 }
@@ -108,7 +108,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     /*background-color: white;*/
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    box-shadow: -1px 1px 120px -30px #0D1321;
+    box-shadow: -1px 1px 120px -30px $colorBoxShadowModal;
     transition: top ease 0.3s;
     z-index: 12;
     -webkit-animation: bgColorAnim 300s infinite;
@@ -119,7 +119,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-container {
     display: flex;
-    color: white;
+    color: $fontColorModal;
     justify-content: space-around;
     width: 100%;
 }
@@ -155,7 +155,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
         cursor: pointer;        
         i {
             font-size: 4rem;
-            color: white;
+            color: $fontColorModal;
         }
     }
 }
@@ -192,7 +192,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
         cursor: pointer;        
         i {
             font-size: 4rem;
-            color: white;
+            color: $fontColorModal;
         }
     }
 }
@@ -238,7 +238,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-body-block-title {
     font-weight: 300;
-    color: white;
+    color: $fontColorModal;
 }
 
 .modal-body-block-content {
@@ -246,7 +246,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     font-size: 0.85rem;
     line-height: 1.5;    
     a {
-        color: white;
+        color: $fontColorModal;
     }
 }
 
@@ -260,7 +260,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .modal-body-title-title {
     /* PROFILE */
     width: 80%;
-    color: white;
+    color: $fontColorModal;
 }
 
 .modal-body-title-icons {
@@ -274,7 +274,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     color: black;
     
     a {
-        color: #978eff;
+        color: $backgroundColor1;
     }
 }
 
@@ -291,7 +291,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     display: flex;    
     label {
         width: 30%;
-        color: white;
+        color: $fontColorModal;
         text-transform: uppercase;
     }
 }
@@ -307,7 +307,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     width: 60%;
     font-family: $fontRobotoMono;
     font-weight: 300;
-    color: white;
+    color: $fontColorModal;
 }
 
 ::-webkit-input-placeholder {
@@ -338,7 +338,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .profile-logout {
     transition: color ease 0.3s;
-    color: white;
+    color: $fontColorModal;
 }
 
 .profile-buttons {
@@ -356,11 +356,11 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     margin-top: 25px;
     border-radius: 50px;
     /*border: none;*/
-    border: 2px solid white;
+    border: $borderStyleModal;
     outline: none;
-    color: white;
+    color: $fontColorModal;
     /*background-color: lightblue;*/
-    /*background-color: #978eff;*/
+    /*background-color: $backgroundColor1;*/
     background-color: transparent;
     cursor: pointer;
     font-family: $fontRobotoMono;
@@ -376,11 +376,11 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     margin-bottom: 50px;
     border-radius: 50px;
     /*border: none;*/
-    border: 2px solid white;
+    border: $borderStyleModal;
     outline: none;
-    color: white;
+    color: $fontColorModal;
     /*background-color: lightblue;*/
-    /*background-color: #978eff;*/
+    /*background-color: $backgroundColor1;*/
     background-color: transparent;
     cursor: pointer;
     font-family: $fontRobotoMono;
@@ -407,5 +407,5 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .profile-logout:hover {
     /* PROFILE MIKEY */
-    color: #e17474;
+    color: $logoutButtonHover;
 }

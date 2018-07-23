@@ -15,13 +15,14 @@ WELCOME MESSAGE
     cursor: pointer;
     /*display: none;*/
     opacity: 0;
+    color: $colorWelcomeMessage;
     transition: opacity ease 0.5s, color ease 0.3s;
     h1 {
        font-weight: 100;
        font-size: 25px;
     }
     &:hover {
-        color: lightgrey;
+        color: $colorWelacomeMessageHover;
     }
 }
 
