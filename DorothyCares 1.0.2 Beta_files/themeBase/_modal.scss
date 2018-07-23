@@ -33,7 +33,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-color: white;*/
     -webkit-animation: bgColorAnim 300s infinite;
     animation: bgColorAnim 300s infinite;
     z-index: 16;
@@ -41,7 +40,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     p {
        cursor: pointer;
        color: $fontColorModal;
-       /*color: #232323;*/
     }
 }
 
@@ -61,15 +59,11 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     width: 90%;
     height: 80%;
     position: fixed;
-    /*padding-right: 40px;*/
     padding: 25px 40px 10px 0;
     top: 50%;
-    /*right: -20px;*/
     right: -120%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    /*background-color: rgba(38, 38, 38, 0.78);*/
-    /*background-color: #5b55a2;*/
     -webkit-animation: bgColorAnim 300s infinite;
     animation: bgColorAnim 300s infinite;
     border-top-left-radius: 10px;
@@ -86,8 +80,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 /* -------- Profile modal coming from the top -------- */
 #profilePage {
     /* PROFILE */
-    /*width: 90%;*/
-    /*height: 80%;*/
     width: 65%;
     /* MIKEY */
     max-width: 800px;
@@ -148,9 +140,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
         align-items: center;
         padding-bottom: 30px;
         padding-left: 30px;
-        /*height: 50px;*/
-        /*width: 6px;*/
-        /*background-color: white;*/
         border-radius: 50px;
         cursor: pointer;        
         i {
@@ -166,12 +155,9 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     display: flex;
     justify-content: center;
     align-items: center;
-    /*left: 0;*/
     height: 30px;
     width: 100%;
     bottom: 0;
-    /*height: 100%;*/
-    /*width: 30px;*/
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 
@@ -184,10 +170,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
         justify-content: center;
         align-items: center;
         padding-bottom: 30px;
-        /*height: 6px;*/
-        /*width: 50px;*/
-        /*background-color: #232323;*/
-        /*background-color: #fff;*/
         border-radius: 50px;
         cursor: pointer;        
         i {
@@ -203,12 +185,10 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-body {
     position: fixed;
-    /*right: 60px;*/
     width: 90%;
     height: 90%;
     margin-left: 50px;
     overflow: auto;
-    /*background-color: #57759f9e;*/
 }
 
 .modal-body-2 {
@@ -217,13 +197,10 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     height: 90%;
     width: 80%;
     max-width: 28rem;
-    /*top: 30%;*/
     left: 50%;
-    /*transform: translate(-50%, -30%);*/
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     overflow: auto;
-    /*background-color: #57759f9e;*/
 }
 
 .modal-body-title {
@@ -270,7 +247,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     align-items: center;
     width: 4rem;
     font-size: 2rem;
-    /*margin-left: 5em;*/
     color: black;
     
     a {
@@ -281,7 +257,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .profile-details {
     /* PROFILE */
-    /*display: inline-grid;*/
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
@@ -338,7 +313,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .profile-logout {
     transition: color ease 0.3s;
-    color: $fontColorModal;
+    color:$logoutButton;
 }
 
 .profile-buttons {
@@ -355,12 +330,9 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     padding: 5px 0px;
     margin-top: 25px;
     border-radius: 50px;
-    /*border: none;*/
     border: $borderStyleModal;
     outline: none;
     color: $fontColorModal;
-    /*background-color: lightblue;*/
-    /*background-color: $backgroundColor1;*/
     background-color: transparent;
     cursor: pointer;
     font-family: $fontRobotoMono;
@@ -378,9 +350,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
     /*border: none;*/
     border: $borderStyleModal;
     outline: none;
-    color: $fontColorModal;
-    /*background-color: lightblue;*/
-    /*background-color: $backgroundColor1;*/
+    color: $colorSaveButton;
     background-color: transparent;
     cursor: pointer;
     font-family: $fontRobotoMono;
@@ -391,8 +361,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .english {
     /* PROFILE MIKEY */
-    /*float: right;*/
-    /*margin-right: 10px;*/
     margin-left: 0.75rem;
 }
 
@@ -401,8 +369,8 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .profile-save-details:hover,
 .profile-add-details:hover {
     /* PROFILE MIKEY */
-    background-color: white;
-    color: #232323;
+    background-color: $backgroundSaveButtonHover;
+    color: $colorSaveButtonHover;
 }
 
 .profile-logout:hover {

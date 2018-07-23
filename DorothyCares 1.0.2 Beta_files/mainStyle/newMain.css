@@ -361,24 +361,10 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  /*background-color: red;*/
   z-index: 11;
   display: none;
 }
 
-/*#particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,1);
-    background-color: $backgroundColor1;
-    background-image: url('../img/space-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-attachment: fixed;
-    z-index: -1;
-  }*/
 /* -------- Top bar with date and time -------- */
 .os-bar {
   text-align: right;
@@ -392,7 +378,6 @@ body {
   padding: 7px 0px;
   top: 10px;
   color: rgba(255, 255, 255, 0.9);
-  /*background-color: rgba(39,64,96,.5);*/
   border-radius: 10px;
   right: 15px;
 }
@@ -481,19 +466,11 @@ BALL & MENU
   position: fixed;
   bottom: 50%;
   left: 50%;
-  /*transform: translateX(-50%) translateY(-50%);*/
   width: 200px;
   height: 200px;
-  /*background-color: #fff;*/
   border-radius: 100%;
   z-index: 10;
   cursor: pointer;
-  /*box-shadow: inset 30px -10px 60px 5px #56cbf9, 0px 0px 100px 0px #6896b5;*/
-  /*box-shadow: inset 80px -10px 100px 5px #56cbf9, -40px -10px 100px -40px #6896b5;*/
-  /* Either this */
-  /*box-shadow: inset 80px -10px 100px 5px #56cbf9, 0px 0px 100px -20px #abddff; */
-  /* Or this */
-  /*box-shadow: inset 80px -20px 100px 5px #55C9BE, 0px 0px 100px -20px #ABDDFF; */
   -webkit-box-shadow: inset 80px -10px 100px 5px #8ee7db, 0px 0px 100px -20px #abddff;
           box-shadow: inset 80px -10px 100px 5px #8ee7db, 0px 0px 100px -20px #abddff;
   opacity: 0;
@@ -505,7 +482,6 @@ BALL & MENU
 }
 
 .dorothy-ball:hover {
-  /*box-shadow: inset -80px -10px 100px 5px #56cbf9, 40px -10px 100px -40px #6896b5;*/
   -webkit-box-shadow: inset -80px -10px 100px 5px #a69df0, 40px -10px 100px -40px #6896b5;
           box-shadow: inset -80px -10px 100px 5px #a69df0, 40px -10px 100px -40px #6896b5;
 }
@@ -518,21 +494,17 @@ BALL & MENU
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  /*border: 1px solid white;*/
   z-index: 1;
 }
 
 .ball-menu-item {
   width: 50px;
   height: 50px;
-  /*background-color: #56cbf9;*/
-  /*background-color: #8fdaff;*/
   background-color: rgba(255, 255, 255, 0.12);
   border: 2px solid white;
   border-radius: 100%;
   position: absolute;
   z-index: 5;
-  /*display: none;*/
   -webkit-transition: background-color ease 0.3s;
   transition: background-color ease 0.3s;
 }
@@ -651,7 +623,6 @@ WELCOME MESSAGE
   text-align: center;
   max-width: 600px;
   cursor: pointer;
-  /*display: none;*/
   opacity: 0;
   color: white;
   -webkit-transition: opacity ease 0.5s, color ease 0.3s;
@@ -711,7 +682,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  /*background-color: white;*/
   -webkit-animation: bgColorAnim 300s infinite;
   animation: bgColorAnim 300s infinite;
   z-index: 16;
@@ -722,7 +692,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .messageModalClose p {
   cursor: pointer;
   color: white;
-  /*color: #232323;*/
 }
 
 .messageModal:hover .messageModalClose {
@@ -739,15 +708,11 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   width: 90%;
   height: 80%;
   position: fixed;
-  /*padding-right: 40px;*/
   padding: 25px 40px 10px 0;
   top: 50%;
-  /*right: -20px;*/
   right: -120%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  /*background-color: rgba(38, 38, 38, 0.78);*/
-  /*background-color: #5b55a2;*/
   -webkit-animation: bgColorAnim 300s infinite;
   animation: bgColorAnim 300s infinite;
   border-top-left-radius: 10px;
@@ -766,8 +731,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 /* -------- Profile modal coming from the top -------- */
 #profilePage {
   /* PROFILE */
-  /*width: 90%;*/
-  /*height: 80%;*/
   width: 65%;
   /* MIKEY */
   max-width: 800px;
@@ -850,9 +813,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
           align-items: center;
   padding-bottom: 30px;
   padding-left: 30px;
-  /*height: 50px;*/
-  /*width: 6px;*/
-  /*background-color: white;*/
   border-radius: 50px;
   cursor: pointer;
 }
@@ -874,12 +834,9 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  /*left: 0;*/
   height: 30px;
   width: 100%;
   bottom: 0;
-  /*height: 100%;*/
-  /*width: 30px;*/
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -899,10 +856,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 30px;
-  /*height: 6px;*/
-  /*width: 50px;*/
-  /*background-color: #232323;*/
-  /*background-color: #fff;*/
   border-radius: 50px;
   cursor: pointer;
 }
@@ -914,12 +867,10 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-body {
   position: fixed;
-  /*right: 60px;*/
   width: 90%;
   height: 90%;
   margin-left: 50px;
   overflow: auto;
-  /*background-color: #57759f9e;*/
 }
 
 .modal-body-2 {
@@ -928,13 +879,10 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   height: 90%;
   width: 80%;
   max-width: 28rem;
-  /*top: 30%;*/
   left: 50%;
-  /*transform: translate(-50%, -30%);*/
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   overflow: auto;
-  /*background-color: #57759f9e;*/
 }
 
 .modal-body-title {
@@ -991,7 +939,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
           align-items: center;
   width: 4rem;
   font-size: 2rem;
-  /*margin-left: 5em;*/
   color: black;
 }
 
@@ -1001,7 +948,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .profile-details {
   /* PROFILE */
-  /*display: inline-grid;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1092,12 +1038,9 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   padding: 5px 0px;
   margin-top: 25px;
   border-radius: 50px;
-  /*border: none;*/
   border: 2px solid white;
   outline: none;
   color: white;
-  /*background-color: lightblue;*/
-  /*background-color: $backgroundColor1;*/
   background-color: transparent;
   cursor: pointer;
   font-family: "Roboto Mono", monospace;
@@ -1117,8 +1060,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   border: 2px solid white;
   outline: none;
   color: white;
-  /*background-color: lightblue;*/
-  /*background-color: $backgroundColor1;*/
   background-color: transparent;
   cursor: pointer;
   font-family: "Roboto Mono", monospace;
@@ -1130,8 +1071,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .english {
   /* PROFILE MIKEY */
-  /*float: right;*/
-  /*margin-right: 10px;*/
   margin-left: 0.75rem;
 }
 
@@ -1161,7 +1100,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   font-size: 0.8rem;
   width: 70px;
   background-color: #555;
-  color: #fff;
+  color: white;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -1194,15 +1133,11 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 #infoPage {
   width: 40%;
   max-width: 400px;
-  /*height: 30%;*/
   position: fixed;
   overflow: hidden;
-  /*padding: 25px 0px 10px 0;*/
   padding: 2rem 1rem;
-  /*top: -120%;*/
   top: 30px;
   left: -120%;
-  /*background-color: $backgroundColor1;*/
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
   -webkit-box-shadow: -1px 1px 80px -30px #0D1321;
@@ -1248,8 +1183,6 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 }
 
 .modal-body-info {
-  /*display: fixed;*/
-  /*left: 100px;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1310,20 +1243,12 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   margin-right: 5px;
   margin-bottom: 0.4rem;
   text-decoration: none;
-  /*width: 60%;*/
-  /*position: relative;*/
-  /*left: 50%;*/
-  /*-webkit-transform: translateX(-50%);*/
-  /*transform: translateX(-50%);*/
 }
 
 .modal-info-link:hover {
   text-decoration: underline;
 }
 
-/*.answer-template-trigger {
-    right: -20px !important;
-  }*/
 /*
 -----------------------------------------------
 TERMINAL (CHATBOX)
@@ -1337,7 +1262,6 @@ TERMINAL (CHATBOX)
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   /* background-color: rgba(30, 60, 90, 0.6); to test aspect terminal #0C0221 */
-  /*background-color: #57759f9e;*/
   width: 75%;
   /*default ratio to keep*/
   height: 85%;
@@ -1345,10 +1269,7 @@ TERMINAL (CHATBOX)
   border-top-left-radius: 10px;
   /*Header of the terminal radius border set to 10px*/
   border-top-right-radius: 10px;
-  /*margin-left: 22.5vw;
-    margin-right: 22.5vw;*/
   /*top: 700px;  Push by default the terminal on a middle position*/
-  /*box-shadow: inset 0px 40px 15px 0px #0D1321;*/
   -webkit-transition: width ease 0.2s, margin ease 0.2s, top ease 0.2s;
   transition: width ease 0.2s, margin ease 0.2s, top ease 0.2s;
   z-index: 0;
@@ -1477,14 +1398,11 @@ button:focus {
 }
 
 ::-webkit-scrollbar-track {
-  /*box-shadow: inset 0 0 5px white;*/
-  /*border: 1px solid rgba(255,255,255,0.3);*/
   border: 1px solid rgba(231, 231, 231, 0.68);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  /*background: rgba(255,255,255,0.2);*/
   background: rgba(231, 231, 231, 0.68);
   border-radius: 10px;
 }
@@ -1521,7 +1439,6 @@ button:focus {
       margin:0px 6px 0px 2px;
   }*/
 .answer {
-  /*color: #cfffff;*/
   color: #81ffff;
   margin-top: 15px;
 }
@@ -1591,7 +1508,7 @@ LOGIN PAGE
 #login-interface .welcome {
   font-weight: 100;
   font-size: 2rem;
-  color: white;
+  color: lightgrey;
 }
 
 #login-interface .google-button {

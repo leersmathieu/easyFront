@@ -12,7 +12,6 @@ TERMINAL (CHATBOX)
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     /* background-color: rgba(30, 60, 90, 0.6); to test aspect terminal #0C0221 */
-    /*background-color: #57759f9e;*/
     width: 75%;
     /*default ratio to keep*/
     height: 85%;
@@ -20,10 +19,7 @@ TERMINAL (CHATBOX)
     border-top-left-radius: 10px;
     /*Header of the terminal radius border set to 10px*/
     border-top-right-radius: 10px;
-    /*margin-left: 22.5vw;
-    margin-right: 22.5vw;*/
     /*top: 700px;  Push by default the terminal on a middle position*/
-    /*box-shadow: inset 0px 40px 15px 0px #0D1321;*/
     transition: width ease 0.2s, margin ease 0.2s, top ease 0.2s;
     z-index: 0;
     font-weight: 300;
@@ -103,9 +99,6 @@ TERMINAL (CHATBOX)
   button hover state
   --------------------------*/
 
-
-
-
 button {
     border-width: 0px;
     border-style: none;
@@ -114,7 +107,6 @@ button {
         outline: 0;
     }
 }
-
 
 /*-------------------------------------
   Terminal Content
@@ -130,7 +122,6 @@ button {
         display: none;
     }
 }
-
 
 @media screen and (min-width: 640px) {
     .terminal-content .message {
@@ -152,14 +143,11 @@ button {
 }
 
 ::-webkit-scrollbar-track {
-    /*box-shadow: inset 0 0 5px white;*/
-    /*border: 1px solid rgba(255,255,255,0.3);*/
     border: 1px solid rgba(231, 231, 231, 0.68);
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    /*background: rgba(255,255,255,0.2);*/
     background: rgba(231, 231, 231, 0.68);
     border-radius: 10px;
     &:hover {
@@ -199,7 +187,6 @@ button {
   }*/
 
 .answer {
-    /*color: #cfffff;*/
     color: $fontColorDorothyAnswer;
     margin-top: 15px;
     a {

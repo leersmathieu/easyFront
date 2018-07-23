@@ -13,7 +13,6 @@ WELCOME MESSAGE
     text-align: center;
     max-width: 600px;
     cursor: pointer;
-    /*display: none;*/
     opacity: 0;
     color: $colorWelcomeMessage;
     transition: opacity ease 0.5s, color ease 0.3s;
@@ -22,7 +21,7 @@ WELCOME MESSAGE
        font-size: 25px;
     }
     &:hover {
-        color: $colorWelacomeMessageHover;
+        color: $colorWelcomeMessageHover;
     }
 }
 

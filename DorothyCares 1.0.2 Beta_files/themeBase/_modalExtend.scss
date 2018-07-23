@@ -9,8 +9,8 @@
         font-weight: 700;
         font-size: 0.8rem;
         width: 70px;
-        background-color: #555;
-        color: #fff;
+        background-color: $backgroundColorTooltip;
+        color: $fontColorTooltip;
         text-align: center;
         border-radius: 6px;
         padding: 5px 0;
@@ -45,15 +45,11 @@
 #infoPage {
     width: 40%;
     max-width: 400px;
-    /*height: 30%;*/
     position: fixed;
     overflow: hidden;
-    /*padding: 25px 0px 10px 0;*/
     padding: 2rem 1rem;
-    /*top: -120%;*/
     top: 30px;
     left: -120%;
-    /*background-color: $backgroundColor1;*/
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
     box-shadow: -1px 1px 80px -30px $colorBoxShadowModal;
@@ -87,8 +83,6 @@
 
 
 .modal-body-info {
-    /*display: fixed;*/
-    /*left: 100px;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,17 +125,7 @@
     margin-right: 5px;
     margin-bottom: 0.4rem;
     text-decoration: none;
-    /*width: 60%;*/
-    /*position: relative;*/
-    /*left: 50%;*/
-    /*-webkit-transform: translateX(-50%);*/
-    /*transform: translateX(-50%);*/
     &:hover {
         text-decoration: underline;
     }
 }
-
-
-/*.answer-template-trigger {
-    right: -20px !important;
-  }*/

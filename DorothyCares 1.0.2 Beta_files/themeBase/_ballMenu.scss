@@ -8,25 +8,16 @@ BALL & MENU
     position: fixed;
     bottom: 50%;
     left: 50%;
-    /*transform: translateX(-50%) translateY(-50%);*/
     width: 200px;
     height: 200px;
-    /*background-color: #fff;*/
     border-radius: 100%;
     z-index: 10;
     cursor: pointer;
-    /*box-shadow: inset 30px -10px 60px 5px #56cbf9, 0px 0px 100px 0px #6896b5;*/
-    /*box-shadow: inset 80px -10px 100px 5px #56cbf9, -40px -10px 100px -40px #6896b5;*/
-    /* Either this */
-    /*box-shadow: inset 80px -10px 100px 5px #56cbf9, 0px 0px 100px -20px #abddff; */
-    /* Or this */
-    /*box-shadow: inset 80px -20px 100px 5px #55C9BE, 0px 0px 100px -20px #ABDDFF; */
     box-shadow: inset 80px -10px 100px 5px $colorBall1, 0px 0px 100px -20px $colorBall2;
     opacity: 0;
     /* ------------ toggle maybe ------------ */
     transition: box-shadow ease 0.5s;
     &:hover {
-        /*box-shadow: inset -80px -10px 100px 5px #56cbf9, 40px -10px 100px -40px #6896b5;*/
         box-shadow: inset -80px -10px 100px 5px $colorBallHover1, 40px -10px 100px -40px $collorBallHover2;
     }
 }
@@ -40,21 +31,17 @@ BALL & MENU
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    /*border: 1px solid white;*/
     z-index: 1;
 }
 
 .ball-menu-item {
     width: 50px;
     height: 50px;
-    /*background-color: #56cbf9;*/
-    /*background-color: #8fdaff;*/
     background-color: $backgroundBallItem;
     border: 2px solid $borderColorBallItem;
     border-radius: 100%;
     position: absolute;
     z-index: 5;
-    /*display: none;*/
     transition: background-color ease 0.3s;
     &:hover {
         background-color: $backgroundBallItemHover;

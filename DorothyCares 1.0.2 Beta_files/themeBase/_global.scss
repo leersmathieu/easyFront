@@ -22,7 +22,12 @@ $backgroundColor6: #7F49DD;
 $bodyColor: rgba(255, 255, 255, 1);
 
 
+// loading page
 
+$fontColorCallToAction: white;
+$backgroundCallToAction: #7968ff;
+$backgroundCallToAction2: #fff;
+$backgroundCallToActionHover: #6bfff4; 
 
 // Interface
 
@@ -30,7 +35,7 @@ $fontColorDateTime: rgba(255, 255, 255, 0.9); // date font color
 $fontColorMenuTheme: white;
 
 $colorWelcomeMessage: $bodyColor;
-$colorWelacomeMessageHover: lightgrey;
+$colorWelcomeMessageHover: lightgrey;
 
 // Terminal
 
@@ -43,8 +48,16 @@ $fontColorModal: white; //global font color for modal
 
 $fontColorModalCreators: lightgray; 
 $borderStyleModal: 2px solid white; //used behind "save" button
-$logoutButtonHover: #e17474;
 $colorBoxShadowModal: #0D1321;
+
+$logoutButton: white;
+$logoutButtonHover: #e17474;
+$fontColorTooltip: white;
+$backgroundColorTooltip: #555;
+
+$colorSaveButton: white;
+$colorSaveButtonHover: #232323;
+$backgroundSaveButtonHover: white;
 
 
 // Ball Menu
@@ -68,10 +81,6 @@ $unavailableBallCalendar: lightgrey;
     font-size: $size;
     font-family: $familly;
 }
-
-//exemple
-// @include fontStyle ($fontColorModal,2em,$fontRoboto); 
-
 
 /*
 -----------------------------------------------
