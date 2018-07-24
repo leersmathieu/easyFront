@@ -12,14 +12,14 @@ $fontVerdana: 'verdana';
 
 // Background Fog Colors && First Color Charte
 
-$backgroundColor1: rgb(122, 11, 11); // <== base color / ref color
-$backgroundColor2: rgb(153, 13, 13);
-$backgroundColor3: #7c0c0c;
-$backgroundColor4: #dd0909;
-$backgroundColor5: #f80000;
-$backgroundColor6: rgb(240, 152, 152);
+$backgroundColor1: rgb(255, 157, 0); // <== base color / ref color
+$backgroundColor2: rgb(167, 109, 17);
+$backgroundColor3: #c79334;
+$backgroundColor4: #ff6600;
+$backgroundColor5: #8d1313;
+$backgroundColor6: rgb(148, 51, 51);
 
-$bodyColor: rgb(8, 4, 4); // base fontColor for the body
+$bodyColor: rgb(230, 221, 221); // base fontColor for the body
 
 // loading page - call to action
 
@@ -31,7 +31,7 @@ $backgroundLogoCallToAction: rgb(252, 5, 5); // <== background color logo google
 
 // Interface
 
-$fontColorDateTime: rgba(255, 0, 0, 0.9); 
+$fontColorDateTime: rgba(54, 14, 14, 0.9); 
 $fontColorMenuTheme: rgba(98, 3, 3, 0.9);
 
 $colorWelcomeMessage: $bodyColor;
@@ -40,18 +40,18 @@ $fontSizeWelcomeMessage: 25px;
 
 // Terminal
 
-$fontColorDorothyAnswer: #7a0e0e; 
+$fontColorDorothyAnswer: #fafafa; 
 
 // Modal
 
-$fontColorModal: rgb(253, 10, 10); // Global font color for modal
+$fontColorModal: rgb(247, 247, 247); // Global font color for modal
 
-$fontColorModalCreators: rgb(126, 9, 9); 
+$fontColorModalCreators: rgb(255, 255, 255); 
 $colorBoxShadowModal: rgb(93, 13, 13);
 $underlineProfileInput: 1px solid rgb(255, 5, 5);
 
 $logoutButton: $fontColorModal;
-$logoutButtonHover: #af0909;
+$logoutButtonHover: #ffffff;
 $fontColorTooltip: $fontColorModal;
 $backgroundColorTooltip: rgb(161, 4, 4);
 
