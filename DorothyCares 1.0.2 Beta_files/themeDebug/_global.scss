@@ -12,64 +12,64 @@ $fontVerdana: 'verdana';
 
 // Background Fog Colors && First Color Charte
 
-$backgroundColor1: #978EFF; // <== base color / ref color
-$backgroundColor2: #63A9FF;
-$backgroundColor3: #667cbe;
-$backgroundColor4: #d47fa5;
-$backgroundColor5: #b97cbf;
-$backgroundColor6: #7F49DD;
+$backgroundColor1: rgb(122, 11, 11); // <== base color / ref color
+$backgroundColor2: rgb(153, 13, 13);
+$backgroundColor3: #7c0c0c;
+$backgroundColor4: #dd0909;
+$backgroundColor5: #f80000;
+$backgroundColor6: rgb(240, 152, 152);
 
-$bodyColor: rgba(255, 255, 255, 1); // base fontColor for the body
+$bodyColor: rgb(8, 4, 4); // base fontColor for the body
 
 // loading page - call to action
 
-$fontColorCallToAction: white;
-$backgroundCallToAction: #7968ff;
+$fontColorCallToAction: rgb(10, 1, 1);
+$backgroundCallToAction: #cf1313;
 $backgroundCallToAction2: white;
-$backgroundCallToActionHover: #6bfff4; 
-$backgroundLogoCallToAction: white; // <== background color logo google
+$backgroundCallToActionHover: #ff6b6b; 
+$backgroundLogoCallToAction: rgb(252, 5, 5); // <== background color logo google
 
 // Interface
 
-$fontColorDateTime: rgba(255, 255, 255, 0.9); 
-$fontColorMenuTheme: rgba(255, 255, 255, 0.9);
+$fontColorDateTime: rgba(255, 0, 0, 0.9); 
+$fontColorMenuTheme: rgba(98, 3, 3, 0.9);
 
 $colorWelcomeMessage: $bodyColor;
-$colorWelcomeMessageHover: lightgrey;
+$colorWelcomeMessageHover: rgb(161, 18, 18);
 $fontSizeWelcomeMessage: 25px;
 
 // Terminal
 
-$fontColorDorothyAnswer: #81ffff; 
+$fontColorDorothyAnswer: #7a0e0e; 
 
 // Modal
 
-$fontColorModal: white; // Global font color for modal
+$fontColorModal: rgb(253, 10, 10); // Global font color for modal
 
-$fontColorModalCreators: lightgray; 
-$colorBoxShadowModal: #0D1321;
-$underlineProfileInput: 1px solid black;
+$fontColorModalCreators: rgb(126, 9, 9); 
+$colorBoxShadowModal: rgb(93, 13, 13);
+$underlineProfileInput: 1px solid rgb(255, 5, 5);
 
 $logoutButton: $fontColorModal;
-$logoutButtonHover: #e17474;
+$logoutButtonHover: #af0909;
 $fontColorTooltip: $fontColorModal;
-$backgroundColorTooltip: #555;
+$backgroundColorTooltip: rgb(161, 4, 4);
 
 $borderStyleModal: 2px solid $fontColorModal; // "Save" button
 $colorSaveButton: $fontColorModal;
-$colorSaveButtonHover: #232323;
+$colorSaveButtonHover: #ff0000;
 $backgroundSaveButtonHover: $fontColorModal;
 
 
 // Ball Menu
 
-$colorBall1: #8ee7db; 
-$colorBall2: #abddff; 
-$colorBallHover1: #a69df0; 
-$collorBallHover2: #6896b5; 
+$colorBall1: #e78e8e; 
+$colorBall2: #850505; 
+$colorBallHover1: #612b2b; 
+$collorBallHover2: #ce0707; 
 
-$backgroundBallItem: rgba(255, 255, 255, 0.12); // Ball Menu - Icones Periph 
-$backgroundBallItemHover: #645ea0;
+$backgroundBallItem: rgba(255, 6, 6, 0.425); // Ball Menu - Icones Periph 
+$backgroundBallItemHover: #a05e5e;
 $borderColorBallItem: white;
 $colorLogoBallItem: white;
 $unavailableBallCalendar: lightgrey;
