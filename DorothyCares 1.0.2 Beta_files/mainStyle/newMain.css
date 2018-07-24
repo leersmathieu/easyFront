@@ -438,7 +438,7 @@ body {
 #menu-deroulant a {
   display: block;
   text-decoration: none;
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
   padding: 8px 0;
   font-family: "verdana";
   font-size: 1.2em;
@@ -1507,7 +1507,7 @@ LOGIN PAGE
 
 #login-interface .welcome {
   font-weight: 100;
-  font-size: 2rem;
+  font-size: 25px;
   color: lightgrey;
 }
 
@@ -1535,7 +1535,7 @@ LOGIN PAGE
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fff;
+  background-color: white;
   -webkit-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
 }
