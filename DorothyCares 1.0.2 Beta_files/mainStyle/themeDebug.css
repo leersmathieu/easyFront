@@ -1,4 +1,91 @@
 @charset "UTF-8";
+/*
+---------
+VARIABLE
+---------
+*/
+/*MIXINS*/
+/*
+-----------------------------------------------
+KEYFRAMES FOR CURSOR ANIMATION
+-----------------------------------------------
+*/
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*
+-----------------------------------------------
+MEDIA QUERIES
+-----------------------------------------------
+*/
+@media only screen and (max-width: 700px) {
+  /* make welcome message on login page smaller */
+  #login-interface .welcome {
+    font-size: 1.6rem;
+  }
+  /* make width of welcome message bigger */
+  .welcome-message-style {
+    width: 80%;
+  }
+  /* make width of terminal bigger and font-size a bit smaller */
+  .terminal {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+  /* make width of modal bigger and height a bit smaller */
+  #profilePage {
+    width: 90%;
+    height: 70%;
+  }
+  /**/
+  .modal-body-2 {
+    padding: 0 20px;
+  }
+  /* reduce input text font-size */
+  .profile-input-wrapper input[type=text] {
+    font-size: 0.8rem;
+  }
+  /* reduce label text font-size */
+  .profile-input-wrapper label {
+    font-size: 0.8rem;
+  }
+  /* make width of info modal bigger and padding right/left smaller */
+  #infoPage {
+    width: 60%;
+    padding: 2rem 0.6rem;
+  }
+  /* make title in info modal bigger */
+  .modal-info-title {
+    font-size: 1.5rem;
+  }
+  /* hide date and time */
+  .os-bar__date-time {
+    display: none;
+  }
+  /**/
+}
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Roboto';
@@ -189,93 +276,6 @@
 }
 
 /*
----------
-VARIABLE
----------
-*/
-/*MIXINS*/
-/*
------------------------------------------------
-KEYFRAMES FOR CURSOR ANIMATION
------------------------------------------------
-*/
-@-webkit-keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-/*
------------------------------------------------
-MEDIA QUERIES
------------------------------------------------
-*/
-@media only screen and (max-width: 700px) {
-  /* make welcome message on login page smaller */
-  #login-interface .welcome {
-    font-size: 1.6rem;
-  }
-  /* make width of welcome message bigger */
-  .welcome-message-style {
-    width: 80%;
-  }
-  /* make width of terminal bigger and font-size a bit smaller */
-  .terminal {
-    width: 90%;
-    font-size: 0.9rem;
-  }
-  /* make width of modal bigger and height a bit smaller */
-  #profilePage {
-    width: 90%;
-    height: 70%;
-  }
-  /**/
-  .modal-body-2 {
-    padding: 0 20px;
-  }
-  /* reduce input text font-size */
-  .profile-input-wrapper input[type=text] {
-    font-size: 0.8rem;
-  }
-  /* reduce label text font-size */
-  .profile-input-wrapper label {
-    font-size: 0.8rem;
-  }
-  /* make width of info modal bigger and padding right/left smaller */
-  #infoPage {
-    width: 60%;
-    padding: 2rem 0.6rem;
-  }
-  /* make title in info modal bigger */
-  .modal-info-title {
-    font-size: 1.5rem;
-  }
-  /* hide date and time */
-  .os-bar__date-time {
-    display: none;
-  }
-  /**/
-}
-
-/*
 -----------------------------------------------
 BACKGROUND
 -----------------------------------------------
@@ -283,7 +283,7 @@ BACKGROUND
 body {
   padding: 0;
   margin: 0;
-  color: #e6dddd;
+  color: blue;
   background-image: url("../img/bg-doro5.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -298,49 +298,49 @@ body {
 
 @-webkit-keyframes bgColorAnim {
   0% {
-    background-color: #ff9d00;
+    background-color: #ffd591;
   }
   20% {
-    background-color: #a76d11;
+    background-color: #a4a4ff;
   }
   35% {
-    background-color: #c79334;
+    background-color: #ff7c7c;
   }
   55% {
-    background-color: #ff6600;
+    background-color: #ffb482;
   }
   70% {
-    background-color: #8d1313;
+    background-color: #7070ff;
   }
   85% {
-    background-color: #943333;
+    background-color: #ff7777;
   }
   100% {
-    background-color: #ff9d00;
+    background-color: #ffd591;
   }
 }
 
 @keyframes bgColorAnim {
   0% {
-    background-color: #ff9d00;
+    background-color: #ffd591;
   }
   20% {
-    background-color: #a76d11;
+    background-color: #a4a4ff;
   }
   35% {
-    background-color: #c79334;
+    background-color: #ff7c7c;
   }
   55% {
-    background-color: #ff6600;
+    background-color: #ffb482;
   }
   70% {
-    background-color: #8d1313;
+    background-color: #7070ff;
   }
   85% {
-    background-color: #943333;
+    background-color: #ff7777;
   }
   100% {
-    background-color: #ff9d00;
+    background-color: #ffd591;
   }
 }
 
@@ -377,7 +377,7 @@ body {
   height: 50px;
   padding: 7px 0px;
   top: 10px;
-  color: rgba(54, 14, 14, 0.9);
+  color: red;
   border-radius: 10px;
   right: 15px;
 }
@@ -411,6 +411,7 @@ body {
   list-style: none;
   text-align: center;
   width: 180px;
+  color: red;
 }
 
 #menu-deroulant ul {
@@ -438,7 +439,7 @@ body {
 #menu-deroulant a {
   display: block;
   text-decoration: none;
-  color: rgba(98, 3, 3, 0.9);
+  color: red;
   padding: 8px 0;
   font-family: "verdana";
   font-size: 1.2em;
@@ -471,8 +472,8 @@ BALL & MENU
   border-radius: 100%;
   z-index: 10;
   cursor: pointer;
-  -webkit-box-shadow: inset 80px -10px 100px 5px #e78e8e, 0px 0px 100px -20px #850505;
-          box-shadow: inset 80px -10px 100px 5px #e78e8e, 0px 0px 100px -20px #850505;
+  -webkit-box-shadow: inset 80px -10px 100px 5px red, 0px 0px 100px -20px #850505;
+          box-shadow: inset 80px -10px 100px 5px red, 0px 0px 100px -20px #850505;
   opacity: 0;
   /* ------------ toggle maybe ------------ */
   -webkit-transition: -webkit-box-shadow ease 0.5s;
@@ -501,7 +502,7 @@ BALL & MENU
   width: 50px;
   height: 50px;
   background-color: rgba(255, 6, 6, 0.425);
-  border: 2px solid white;
+  border: 2px solid aqua;
   border-radius: 100%;
   position: absolute;
   z-index: 5;
@@ -510,7 +511,7 @@ BALL & MENU
 }
 
 .ball-menu-item:hover {
-  background-color: #a05e5e;
+  background-color: #73ffff;
 }
 
 .ball-menu-item i {
@@ -520,7 +521,7 @@ BALL & MENU
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   font-size: 20px;
-  color: white;
+  color: aqua;
 }
 
 .ball-menu-item.menu-terminal {
@@ -544,7 +545,7 @@ BALL & MENU
 .ball-menu-item.menu-calendar {
   top: 60px;
   right: 0;
-  background-color: lightgrey !important;
+  background-color: red !important;
 }
 
 .ball-menu-item-label {
@@ -624,14 +625,14 @@ WELCOME MESSAGE
   max-width: 600px;
   cursor: pointer;
   opacity: 0;
-  color: #e6dddd;
+  color: blue;
   -webkit-transition: opacity ease 0.5s, color ease 0.3s;
   transition: opacity ease 0.5s, color ease 0.3s;
 }
 
 .welcome-message-style h1 {
   font-weight: 100;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .welcome-message-style:hover {
@@ -691,7 +692,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .messageModalClose p {
   cursor: pointer;
-  color: #f7f7f7;
+  color: green;
 }
 
 .messageModal:hover .messageModalClose {
@@ -765,7 +766,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #f7f7f7;
+  color: green;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 100%;
@@ -819,7 +820,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-header .modal-close-btn i {
   font-size: 4rem;
-  color: #f7f7f7;
+  color: green;
 }
 
 .modal-header-2 {
@@ -862,7 +863,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-header-2 .modal-close-btn-2 i {
   font-size: 4rem;
-  color: #f7f7f7;
+  color: green;
 }
 
 .modal-body {
@@ -897,7 +898,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-body-block-title {
   font-weight: 300;
-  color: #f7f7f7;
+  color: green;
 }
 
 .modal-body-block-content {
@@ -907,7 +908,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 }
 
 .modal-body-block-content a {
-  color: #f7f7f7;
+  color: green;
 }
 
 .modal-body-title-container {
@@ -923,7 +924,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .modal-body-title-title {
   /* PROFILE */
   width: 80%;
-  color: #f7f7f7;
+  color: green;
 }
 
 .modal-body-title-icons {
@@ -943,7 +944,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 }
 
 .modal-body-title-icons a {
-  color: #ff9d00;
+  color: #ffd591;
 }
 
 .profile-details {
@@ -966,7 +967,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .profile-input-wrapper label {
   width: 30%;
-  color: #f7f7f7;
+  color: green;
   text-transform: uppercase;
 }
 
@@ -975,12 +976,12 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   margin-bottom: 1em;
   background: transparent;
   border: none;
-  border-bottom: 1px solid #ff0505;
+  border-bottom: 3px solid #ff0505;
   outline: none;
   width: 60%;
   font-family: "Roboto Mono", monospace;
   font-weight: 300;
-  color: #f7f7f7;
+  color: green;
 }
 
 ::-webkit-input-placeholder {
@@ -1012,7 +1013,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .profile-logout {
   -webkit-transition: color ease 0.3s;
   transition: color ease 0.3s;
-  color: #f7f7f7;
+  color: green;
 }
 
 .profile-buttons {
@@ -1038,9 +1039,9 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   padding: 5px 0px;
   margin-top: 25px;
   border-radius: 50px;
-  border: 2px solid #f7f7f7;
+  border: 4px double green;
   outline: none;
-  color: #f7f7f7;
+  color: green;
   background-color: transparent;
   cursor: pointer;
   font-family: "Roboto Mono", monospace;
@@ -1057,9 +1058,9 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   margin-bottom: 50px;
   border-radius: 50px;
   /*border: none;*/
-  border: 2px solid #f7f7f7;
+  border: 4px double green;
   outline: none;
-  color: #f7f7f7;
+  color: green;
   background-color: transparent;
   cursor: pointer;
   font-family: "Roboto Mono", monospace;
@@ -1078,13 +1079,13 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .profile-save-details:hover,
 .profile-add-details:hover {
   /* PROFILE MIKEY */
-  background-color: #f7f7f7;
+  background-color: green;
   color: #ff0000;
 }
 
 .profile-logout:hover {
   /* PROFILE MIKEY */
-  color: #ffffff;
+  color: red;
 }
 
 /* -------- Tooltip for logout button in profile modal -------- */
@@ -1100,7 +1101,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   font-size: 0.8rem;
   width: 70px;
   background-color: #a10404;
-  color: #f7f7f7;
+  color: green;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -1179,7 +1180,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .modal-close-btn-3 i {
   cursor: pointer;
   font-size: 4rem;
-  color: #f7f7f7;
+  color: green;
 }
 
 .modal-body-info {
@@ -1200,7 +1201,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-info-title {
   font-weight: 300;
-  color: #f7f7f7;
+  color: green;
   margin: 0;
   display: block;
   text-align: center;
@@ -1208,7 +1209,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-info-creators {
   /*Powered by the Nine: Saadia Brahimi, Cali Armut, Laurent Hulstaert, Alexandre Ntougas, Michaël Tolis, Bertrand Honner, Yadrichnikov Nikolaï, Prince-kombo Bontala, Thomas Bouchard*/
-  color: white;
+  color: yellow;
   text-align: center;
   margin-top: 1rem;
 }
@@ -1239,7 +1240,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   font-weight: 100;
   display: block;
   text-align: center;
-  color: #f7f7f7;
+  color: green;
   margin-right: 5px;
   margin-bottom: 0.4rem;
   text-decoration: none;
@@ -1439,7 +1440,7 @@ button:focus {
       margin:0px 6px 0px 2px;
   }*/
 .answer {
-  color: #fafafa;
+  color: green;
   margin-top: 15px;
 }
 
@@ -1507,7 +1508,7 @@ LOGIN PAGE
 
 #login-interface .welcome {
   font-weight: 100;
-  font-size: 25px;
+  font-size: 35px;
   color: #a11212;
 }
 
@@ -1535,7 +1536,7 @@ LOGIN PAGE
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: white;
+  background-color: green;
   -webkit-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
 }
@@ -1579,7 +1580,7 @@ LOGIN PAGE
   outline: none;
   overflow: hidden;
   border-radius: 100px;
-  color: #0a0101;
+  color: blue;
   font-size: 1.2em;
   font-family: "Roboto", sans-serif;
 }

@@ -12,50 +12,50 @@ $fontVerdana: 'verdana';
 
 // Background Fog Colors && First Color Charte
 
-$backgroundColor1: rgb(255, 157, 0); // <== base color / ref color
-$backgroundColor2: rgb(167, 109, 17);
-$backgroundColor3: #c79334;
-$backgroundColor4: #ff6600;
-$backgroundColor5: #8d1313;
-$backgroundColor6: rgb(148, 51, 51);
+$backgroundColor1: rgb(255, 213, 145); // <== base color / ref color
+$backgroundColor2: rgb(164, 164, 255);
+$backgroundColor3: rgb(255, 124, 124);
+$backgroundColor4: #ffb482;
+$backgroundColor5: rgb(112, 112, 255);
+$backgroundColor6: rgb(255, 119, 119);
 
-$bodyColor: rgb(230, 221, 221); // base fontColor for the body
+$bodyColor: blue; // base fontColor for the body
 
 // loading page - call to action
 
-$fontColorCallToAction: rgb(10, 1, 1);
+$fontColorCallToAction: blue;
 $backgroundCallToAction: #cf1313;
-$backgroundCallToAction2: white;
+$backgroundCallToAction2: green;
 $backgroundCallToActionHover: #ff6b6b; 
 $backgroundLogoCallToAction: rgb(252, 5, 5); // <== background color logo google
 
 // Interface
 
-$fontColorDateTime: rgba(54, 14, 14, 0.9); 
-$fontColorMenuTheme: rgba(98, 3, 3, 0.9);
+$fontColorDateTime: red; 
+$fontColorMenuTheme: red;
 
 $colorWelcomeMessage: $bodyColor;
 $colorWelcomeMessageHover: rgb(161, 18, 18);
-$fontSizeWelcomeMessage: 25px;
+$fontSizeWelcomeMessage: 35px;
 
 // Terminal
 
-$fontColorDorothyAnswer: #fafafa; 
+$fontColorDorothyAnswer: green; 
 
 // Modal
 
-$fontColorModal: rgb(247, 247, 247); // Global font color for modal
+$fontColorModal: green; // Global font color for modal
 
-$fontColorModalCreators: rgb(255, 255, 255); 
+$fontColorModalCreators: yellow; 
 $colorBoxShadowModal: rgb(93, 13, 13);
-$underlineProfileInput: 1px solid rgb(255, 5, 5);
+$underlineProfileInput: 3px solid rgb(255, 5, 5);
 
 $logoutButton: $fontColorModal;
-$logoutButtonHover: #ffffff;
+$logoutButtonHover: red;
 $fontColorTooltip: $fontColorModal;
 $backgroundColorTooltip: rgb(161, 4, 4);
 
-$borderStyleModal: 2px solid $fontColorModal; // "Save" button
+$borderStyleModal: 4px double $fontColorModal; // "Save" button
 $colorSaveButton: $fontColorModal;
 $colorSaveButtonHover: #ff0000;
 $backgroundSaveButtonHover: $fontColorModal;
@@ -63,16 +63,16 @@ $backgroundSaveButtonHover: $fontColorModal;
 
 // Ball Menu
 
-$colorBall1: #e78e8e; 
+$colorBall1: red; 
 $colorBall2: #850505; 
 $colorBallHover1: #612b2b; 
 $collorBallHover2: #ce0707; 
 
 $backgroundBallItem: rgba(255, 6, 6, 0.425); // Ball Menu - Icones Periph 
-$backgroundBallItemHover: #a05e5e;
-$borderColorBallItem: white;
-$colorLogoBallItem: white;
-$unavailableBallCalendar: lightgrey;
+$backgroundBallItemHover: rgb(115, 255, 255);
+$borderColorBallItem: aqua;
+$colorLogoBallItem: aqua;
+$unavailableBallCalendar: red;
 
 /*MIXINS*/ 
 
