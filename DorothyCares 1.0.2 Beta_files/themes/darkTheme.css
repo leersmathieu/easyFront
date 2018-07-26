@@ -231,7 +231,7 @@ BACKGROUND
 body {
   padding: 0;
   margin: 0;
-  color: blue;
+  color: white;
   background-image: url("../img/bg-doro5.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -246,49 +246,49 @@ body {
 
 @-webkit-keyframes bgColorAnim {
   0% {
-    background-color: #ffd591;
+    background-color: black;
   }
   20% {
-    background-color: #a4a4ff;
+    background-color: #63A9FF;
   }
   35% {
-    background-color: #ff7c7c;
+    background-color: #667cbe;
   }
   55% {
-    background-color: #ffb482;
+    background-color: #d47fa5;
   }
   70% {
-    background-color: #7070ff;
+    background-color: #b97cbf;
   }
   85% {
-    background-color: #ff7777;
+    background-color: #7F49DD;
   }
   100% {
-    background-color: #ffd591;
+    background-color: black;
   }
 }
 
 @keyframes bgColorAnim {
   0% {
-    background-color: #ffd591;
+    background-color: black;
   }
   20% {
-    background-color: #a4a4ff;
+    background-color: #63A9FF;
   }
   35% {
-    background-color: #ff7c7c;
+    background-color: #667cbe;
   }
   55% {
-    background-color: #ffb482;
+    background-color: #d47fa5;
   }
   70% {
-    background-color: #7070ff;
+    background-color: #b97cbf;
   }
   85% {
-    background-color: #ff7777;
+    background-color: #7F49DD;
   }
   100% {
-    background-color: #ffd591;
+    background-color: black;
   }
 }
 
@@ -325,7 +325,7 @@ body {
   height: 50px;
   padding: 7px 0px;
   top: 10px;
-  color: red;
+  color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   right: 15px;
 }
@@ -359,7 +359,7 @@ body {
   list-style: none;
   text-align: center;
   width: 180px;
-  color: red;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 #menu-deroulant ul {
@@ -387,7 +387,7 @@ body {
 #menu-deroulant a {
   display: block;
   text-decoration: none;
-  color: red;
+  color: rgba(255, 255, 255, 0.9);
   padding: 8px 0;
   font-family: "verdana";
   font-size: 1.2em;
@@ -420,8 +420,8 @@ BALL & MENU
   border-radius: 100%;
   z-index: 10;
   cursor: pointer;
-  -webkit-box-shadow: inset 80px -10px 100px 5px red, 0px 0px 100px -20px #850505;
-          box-shadow: inset 80px -10px 100px 5px red, 0px 0px 100px -20px #850505;
+  -webkit-box-shadow: inset 80px -10px 100px 5px #8ee7db, 0px 0px 100px -20px #abddff;
+          box-shadow: inset 80px -10px 100px 5px #8ee7db, 0px 0px 100px -20px #abddff;
   opacity: 0;
   /* ------------ toggle maybe ------------ */
   -webkit-transition: -webkit-box-shadow ease 0.5s;
@@ -431,8 +431,8 @@ BALL & MENU
 }
 
 .dorothy-ball:hover {
-  -webkit-box-shadow: inset -80px -10px 100px 5px #612b2b, 40px -10px 100px -40px #ce0707;
-          box-shadow: inset -80px -10px 100px 5px #612b2b, 40px -10px 100px -40px #ce0707;
+  -webkit-box-shadow: inset -80px -10px 100px 5px #a69df0, 40px -10px 100px -40px #6896b5;
+          box-shadow: inset -80px -10px 100px 5px #a69df0, 40px -10px 100px -40px #6896b5;
 }
 
 .ball-menu {
@@ -449,8 +449,8 @@ BALL & MENU
 .ball-menu-item {
   width: 50px;
   height: 50px;
-  background-color: rgba(255, 6, 6, 0.425);
-  border: 2px solid aqua;
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 2px solid white;
   border-radius: 100%;
   position: absolute;
   z-index: 5;
@@ -459,7 +459,7 @@ BALL & MENU
 }
 
 .ball-menu-item:hover {
-  background-color: #73ffff;
+  background-color: #645ea0;
 }
 
 .ball-menu-item i {
@@ -469,7 +469,7 @@ BALL & MENU
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   font-size: 20px;
-  color: aqua;
+  color: white;
 }
 
 .ball-menu-item.menu-terminal {
@@ -493,7 +493,7 @@ BALL & MENU
 .ball-menu-item.menu-calendar {
   top: 60px;
   right: 0;
-  background-color: red !important;
+  background-color: lightgrey !important;
 }
 
 .ball-menu-item-label {
@@ -573,18 +573,18 @@ WELCOME MESSAGE
   max-width: 600px;
   cursor: pointer;
   opacity: 0;
-  color: blue;
+  color: white;
   -webkit-transition: opacity ease 0.5s, color ease 0.3s;
   transition: opacity ease 0.5s, color ease 0.3s;
 }
 
 .welcome-message-style h1 {
   font-weight: 100;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .welcome-message-style:hover {
-  color: #a11212;
+  color: lightgrey;
 }
 
 /*
@@ -640,7 +640,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .messageModalClose p {
   cursor: pointer;
-  color: green;
+  color: white;
 }
 
 .messageModal:hover .messageModalClose {
@@ -666,8 +666,8 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   animation: bgColorAnim 300s infinite;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  -webkit-box-shadow: -1px 1px 80px -20px #5d0d0d;
-          box-shadow: -1px 1px 80px -20px #5d0d0d;
+  -webkit-box-shadow: -1px 1px 80px -20px #0D1321;
+          box-shadow: -1px 1px 80px -20px #0D1321;
   -webkit-transition: right ease 0.5s;
   transition: right ease 0.5s;
   z-index: 12;
@@ -700,8 +700,8 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   /*background-color: white;*/
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  -webkit-box-shadow: -1px 1px 120px -30px #5d0d0d;
-          box-shadow: -1px 1px 120px -30px #5d0d0d;
+  -webkit-box-shadow: -1px 1px 120px -30px #0D1321;
+          box-shadow: -1px 1px 120px -30px #0D1321;
   -webkit-transition: top ease 0.3s;
   transition: top ease 0.3s;
   z-index: 12;
@@ -714,7 +714,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: green;
+  color: white;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 100%;
@@ -768,7 +768,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-header .modal-close-btn i {
   font-size: 4rem;
-  color: green;
+  color: white;
 }
 
 .modal-header-2 {
@@ -811,7 +811,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-header-2 .modal-close-btn-2 i {
   font-size: 4rem;
-  color: green;
+  color: white;
 }
 
 .modal-body {
@@ -846,7 +846,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-body-block-title {
   font-weight: 300;
-  color: green;
+  color: white;
 }
 
 .modal-body-block-content {
@@ -856,7 +856,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 }
 
 .modal-body-block-content a {
-  color: green;
+  color: white;
 }
 
 .modal-body-title-container {
@@ -872,7 +872,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .modal-body-title-title {
   /* PROFILE */
   width: 80%;
-  color: green;
+  color: white;
 }
 
 .modal-body-title-icons {
@@ -892,7 +892,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 }
 
 .modal-body-title-icons a {
-  color: #ffd591;
+  color: black;
 }
 
 .profile-details {
@@ -915,7 +915,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .profile-input-wrapper label {
   width: 30%;
-  color: green;
+  color: white;
   text-transform: uppercase;
 }
 
@@ -924,12 +924,12 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   margin-bottom: 1em;
   background: transparent;
   border: none;
-  border-bottom: 3px solid #ff0505;
+  border-bottom: 1px solid black;
   outline: none;
   width: 60%;
   font-family: "Roboto Mono", monospace;
   font-weight: 300;
-  color: green;
+  color: white;
 }
 
 ::-webkit-input-placeholder {
@@ -961,7 +961,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .profile-logout {
   -webkit-transition: color ease 0.3s;
   transition: color ease 0.3s;
-  color: green;
+  color: white;
 }
 
 .profile-buttons {
@@ -987,9 +987,9 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   padding: 5px 0px;
   margin-top: 25px;
   border-radius: 50px;
-  border: 4px double green;
+  border: 2px solid white;
   outline: none;
-  color: green;
+  color: white;
   background-color: transparent;
   cursor: pointer;
   font-family: "Roboto Mono", monospace;
@@ -1006,9 +1006,9 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   margin-bottom: 50px;
   border-radius: 50px;
   /*border: none;*/
-  border: 4px double green;
+  border: 2px solid white;
   outline: none;
-  color: green;
+  color: white;
   background-color: transparent;
   cursor: pointer;
   font-family: "Roboto Mono", monospace;
@@ -1027,13 +1027,13 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .profile-save-details:hover,
 .profile-add-details:hover {
   /* PROFILE MIKEY */
-  background-color: green;
-  color: #ff0000;
+  background-color: white;
+  color: #232323;
 }
 
 .profile-logout:hover {
   /* PROFILE MIKEY */
-  color: red;
+  color: #e17474;
 }
 
 /* -------- Tooltip for logout button in profile modal -------- */
@@ -1048,8 +1048,8 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   font-weight: 700;
   font-size: 0.8rem;
   width: 70px;
-  background-color: #a10404;
-  color: green;
+  background-color: #555;
+  color: white;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -1089,8 +1089,8 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   left: -120%;
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
-  -webkit-box-shadow: -1px 1px 80px -30px #5d0d0d;
-          box-shadow: -1px 1px 80px -30px #5d0d0d;
+  -webkit-box-shadow: -1px 1px 80px -30px #0D1321;
+          box-shadow: -1px 1px 80px -30px #0D1321;
   -webkit-transition: left ease 0.5s;
   transition: left ease 0.5s;
   z-index: 11;
@@ -1128,7 +1128,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .modal-close-btn-3 i {
   cursor: pointer;
   font-size: 4rem;
-  color: green;
+  color: white;
 }
 
 .modal-body-info {
@@ -1149,7 +1149,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-info-title {
   font-weight: 300;
-  color: green;
+  color: white;
   margin: 0;
   display: block;
   text-align: center;
@@ -1157,7 +1157,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-info-creators {
   /*Powered by the Nine: Saadia Brahimi, Cali Armut, Laurent Hulstaert, Alexandre Ntougas, Michaël Tolis, Bertrand Honner, Yadrichnikov Nikolaï, Prince-kombo Bontala, Thomas Bouchard*/
-  color: yellow;
+  color: lightgray;
   text-align: center;
   margin-top: 1rem;
 }
@@ -1188,7 +1188,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   font-weight: 100;
   display: block;
   text-align: center;
-  color: green;
+  color: white;
   margin-right: 5px;
   margin-bottom: 0.4rem;
   text-decoration: none;
@@ -1388,7 +1388,7 @@ button:focus {
       margin:0px 6px 0px 2px;
   }*/
 .answer {
-  color: green;
+  color: #81ffff;
   margin-top: 15px;
 }
 
@@ -1456,8 +1456,8 @@ LOGIN PAGE
 
 #login-interface .welcome {
   font-weight: 100;
-  font-size: 35px;
-  color: #a11212;
+  font-size: 25px;
+  color: lightgrey;
 }
 
 #login-interface .google-button {
@@ -1484,7 +1484,7 @@ LOGIN PAGE
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: green;
+  background-color: white;
   -webkit-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
 }
@@ -1502,7 +1502,7 @@ LOGIN PAGE
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fc0505;
+  background-color: white;
   border-radius: 100%;
 }
 
@@ -1521,14 +1521,14 @@ LOGIN PAGE
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #cf1313;
+  background: #7968ff;
   padding: 1em;
   border: none;
   cursor: pointer;
   outline: none;
   overflow: hidden;
   border-radius: 100px;
-  color: blue;
+  color: white;
   font-size: 1.2em;
   font-family: "Roboto", sans-serif;
 }
@@ -1546,7 +1546,7 @@ LOGIN PAGE
   top: var(--y);
   width: var(--size);
   height: var(--size);
-  background: radial-gradient(circle closest-side, #ff6b6b, transparent);
+  background: radial-gradient(circle closest-side, #6bfff4, transparent);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-transition: width .2s ease, height .2s ease;
@@ -1608,4 +1608,4 @@ LOGIN PAGE
   }
   /**/
 }
-/*# sourceMappingURL=themeDebug.css.map */
+/*# sourceMappingURL=darkTheme.css.map */
