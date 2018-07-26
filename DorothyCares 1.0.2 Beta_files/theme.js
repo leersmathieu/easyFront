@@ -7,7 +7,7 @@ const switchThemeNext = () =>
     {
         theme = 0
     }
-    linkCss.setAttribute("href", "DorothyCares%201.0.2%20Beta_files/mainStyle/"+themeChoice[theme]+".css")
+    linkCss.setAttribute("href", "DorothyCares%201.0.2%20Beta_files/themes/"+themeChoice[theme]+".css")
     document.getElementById("FirstTheme").innerHTML = themeChoice[theme]
     // console.log(linkCss)
 }
@@ -19,7 +19,7 @@ const switchThemeBack = () =>
     {
         theme = themeChoice.length-1
     }
-    linkCss.setAttribute("href", "DorothyCares%201.0.2%20Beta_files/mainStyle/"+themeChoice[theme]+".css")
+    linkCss.setAttribute("href", "DorothyCares%201.0.2%20Beta_files/themes/"+themeChoice[theme]+".css")
     document.getElementById("FirstTheme").innerHTML = themeChoice[theme]
     // console.log(linkCss)
 }
