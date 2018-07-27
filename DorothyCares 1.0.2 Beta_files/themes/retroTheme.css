@@ -246,49 +246,49 @@ body {
 
 @-webkit-keyframes bgColorAnim {
   0% {
-    background-color: #1c0ae2;
+    background-color: #A93926;
   }
   20% {
-    background-color: #63A9FF;
+    background-color: #fd5b55;
   }
   35% {
-    background-color: #667cbe;
+    background-color: #FEA846;
   }
   55% {
-    background-color: #d47fa5;
+    background-color: #ffda9f;
   }
   70% {
-    background-color: #b97cbf;
+    background-color: #88604d;
   }
   85% {
-    background-color: #7F49DD;
+    background-color: #9be791;
   }
   100% {
-    background-color: #1c0ae2;
+    background-color: #A93926;
   }
 }
 
 @keyframes bgColorAnim {
   0% {
-    background-color: #1c0ae2;
+    background-color: #A93926;
   }
   20% {
-    background-color: #63A9FF;
+    background-color: #fd5b55;
   }
   35% {
-    background-color: #667cbe;
+    background-color: #FEA846;
   }
   55% {
-    background-color: #d47fa5;
+    background-color: #ffda9f;
   }
   70% {
-    background-color: #b97cbf;
+    background-color: #88604d;
   }
   85% {
-    background-color: #7F49DD;
+    background-color: #9be791;
   }
   100% {
-    background-color: #1c0ae2;
+    background-color: #A93926;
   }
 }
 
@@ -420,8 +420,8 @@ BALL & MENU
   border-radius: 100%;
   z-index: 10;
   cursor: pointer;
-  -webkit-box-shadow: inset 80px -10px 100px 5px #8ee7db, 0px 0px 100px -20px #abddff;
-          box-shadow: inset 80px -10px 100px 5px #8ee7db, 0px 0px 100px -20px #abddff;
+  -webkit-box-shadow: inset 80px -10px 100px 5px white, 0px 0px 100px -20px white;
+          box-shadow: inset 80px -10px 100px 5px white, 0px 0px 100px -20px white;
   opacity: 0;
   /* ------------ toggle maybe ------------ */
   -webkit-transition: -webkit-box-shadow ease 0.5s;
@@ -431,8 +431,8 @@ BALL & MENU
 }
 
 .dorothy-ball:hover {
-  -webkit-box-shadow: inset -80px -10px 100px 5px #a69df0, 40px -10px 100px -40px #6896b5;
-          box-shadow: inset -80px -10px 100px 5px #a69df0, 40px -10px 100px -40px #6896b5;
+  -webkit-box-shadow: inset -80px -10px 100px 5px white, 40px -10px 100px -40px #ffffff;
+          box-shadow: inset -80px -10px 100px 5px white, 40px -10px 100px -40px #ffffff;
 }
 
 .ball-menu {
@@ -449,8 +449,8 @@ BALL & MENU
 .ball-menu-item {
   width: 50px;
   height: 50px;
-  background-color: rgba(255, 255, 255, 0.12);
-  border: 2px solid white;
+  background-color: white;
+  border: 2px solid #df6b4e;
   border-radius: 100%;
   position: absolute;
   z-index: 5;
@@ -459,7 +459,7 @@ BALL & MENU
 }
 
 .ball-menu-item:hover {
-  background-color: #645ea0;
+  background-color: rgba(134, 114, 114, 0.082);
 }
 
 .ball-menu-item i {
@@ -469,7 +469,7 @@ BALL & MENU
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   font-size: 20px;
-  color: white;
+  color: #c7361d;
 }
 
 .ball-menu-item.menu-terminal {
@@ -493,7 +493,7 @@ BALL & MENU
 .ball-menu-item.menu-calendar {
   top: 60px;
   right: 0;
-  background-color: lightgrey !important;
+  background-color: white !important;
 }
 
 .ball-menu-item-label {
@@ -892,7 +892,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 }
 
 .modal-body-title-icons a {
-  color: #1c0ae2;
+  color: #A93926;
 }
 
 .profile-details {
@@ -1048,7 +1048,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   font-weight: 700;
   font-size: 0.8rem;
   width: 70px;
-  background-color: #555;
+  background-color: black;
   color: white;
   text-align: center;
   border-radius: 6px;
@@ -1157,7 +1157,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-info-creators {
   /*Powered by the Nine: Saadia Brahimi, Cali Armut, Laurent Hulstaert, Alexandre Ntougas, Michaël Tolis, Bertrand Honner, Yadrichnikov Nikolaï, Prince-kombo Bontala, Thomas Bouchard*/
-  color: lightgray;
+  color: #ce0d0d;
   text-align: center;
   margin-top: 1rem;
 }
@@ -1388,7 +1388,7 @@ button:focus {
       margin:0px 6px 0px 2px;
   }*/
 .answer {
-  color: #81ffff;
+  color: #ffffff;
   margin-top: 15px;
 }
 
@@ -1546,7 +1546,7 @@ LOGIN PAGE
   top: var(--y);
   width: var(--size);
   height: var(--size);
-  background: radial-gradient(circle closest-side, #6bfff4, transparent);
+  background: radial-gradient(circle closest-side, #ffffff, transparent);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-transition: width .2s ease, height .2s ease;
