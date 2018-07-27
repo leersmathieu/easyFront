@@ -1609,6 +1609,31 @@ LOGIN PAGE
   /**/
 }
 
+.modal-body-title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.modal-body-block {
+  width: 90%;
+}
+
+.modal-body-block-title {
+  font-weight: 600;
+  color: white;
+}
+
+.modal-body-block-content {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.modal-body-block-content a {
+  color: white;
+}
+
 .terminal {
   font-size: 1.3rem;
 }
@@ -1619,6 +1644,10 @@ LOGIN PAGE
 
 .os-bar__date-time {
   font-weight: 400;
+}
+
+.welcome-message-style {
+  max-width: 900px;
 }
 
 .welcome-message-style h1 {
