@@ -1,5 +1,9 @@
 let theme = 0
+<<<<<<< HEAD
 const themeChoice = ["newMain", "themeDebug", "darkTheme"];
+=======
+const themeChoice = ["newMain", "themeDebug"];
+>>>>>>> 8c2f092c05138b2b393573c2a18babf0a5141167
 const switchThemeNext = () => 
 {
     theme += 1
