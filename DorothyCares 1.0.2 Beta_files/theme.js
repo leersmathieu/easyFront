@@ -1,5 +1,5 @@
 let theme = 0
-const themeChoice = ["newMain", "themeDebug", "darkTheme"];
+const themeChoice = ["newMain", "themeDebug", "darkTheme", "turingTheme"];
 const switchThemeNext = () => 
 {
     theme += 1

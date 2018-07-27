@@ -1,49 +1,107 @@
 <!DOCTYPE html>
-<html class="js sizes no-customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width no-csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth no-csscolumns-breakbefore no-csscolumns-breakafter no-csscolumns-breakinside flexbox picture srcset webworkers" lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Login - DorothyCares 1.0.2 Beta (Dev)</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="LoginDorothyCares%201.0.2%20Beta%20(Dev)_files/css.css" rel="stylesheet">
+<html class="js sizes no-customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width no-csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth no-csscolumns-breakbefore no-csscolumns-breakafter no-csscolumns-breakinside flexbox picture srcset webworkers"
+  lang="en">
 
-    <!-- Google Sign-In -->
-    <meta name="google-signin-scope" content="profile email">
-    <meta name="google-signin-client_id" content="269528235107-8m2673golc384phuudm0p8aj4mtb7hi0.apps.googleusercontent.com">
-    <script type="text/javascript" async="" src="LoginDorothyCares%201.0.2%20Beta%20(Dev)_files/hotjar-852718.js"></script><script type="text/javascript" async="" src="LoginDorothyCares%201.0.2%20Beta%20(Dev)_files/analytics.js"></script><script async="" src="LoginDorothyCares%201.0.2%20Beta%20(Dev)_files/gtm.js"></script><script src="LoginDorothyCares%201.0.2%20Beta%20(Dev)_files/platform.js" async="" defer="defer" gapi_processed="true"></script>
-    <script src="LoginDorothyCares%201.0.2%20Beta%20(Dev)_files/api.js" gapi_processed="true"></script>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-    <!-- OpenGraph -->
-    <meta property="fb:app_id" content="306159282727976">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="DorothAI">
-    <meta property="og:description" content="Dorothy cares about you. It'll help you along your way at BeCode.">
-    <meta property="og:url" content="https://dorothycares.io/">
-    <meta property="og:site_name" content="DorothAI">
-    <meta property="og:image" content="https://dorothycares.io/img/printscreen.jpg">
-    <meta property="og:image:secure_url" content="https://dorothycares.io/img/printscreen.jpg">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description" content="Dorothy cares about you. It'll help you along your way at BeCode.">
-    <meta name="twitter:title" content="DorothAI">
-    <meta name="twitter:site" content="@becodeorg">
-    <meta name="twitter:image" content="https://dorothycares.io/img/printscreen.jpg">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="DorothyCares%201.0.2%20Beta_files/themes/normalize.css">
+  <link rel="stylesheet" href="DorothyCares%201.0.2%20Beta_files/themes/newMain.css" id="thatlink">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
-      crossorigin="anonymous">
-    <link rel="stylesheet" href="DorothyCares%201.0.2%20Beta_files/mainStyle/normalize.css">
-    <link rel="stylesheet" href="DorothyCares%201.0.2%20Beta_files/mainStyle/newMain.css" id="thatlink">
+  <title>DorothyCares 1.0.2 Beta</title>
 
-    <!-- Google Tag Manager -->
-      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-WCDFFXV');</script>
+  <!-- OpenGraph -->
+  <meta property="fb:app_id" content="306159282727976">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DorothAI">
+  <meta property="og:description" content="Dorothy cares about you. Iy'll help you along your way at BeCode.">
+  <meta property="og:url" content="https://dorothycares.io/">
+  <meta property="og:site_name" content="DorothAI">
+  <meta property="og:image" content="https://dorothycares.io/img/printscreen.jpg">
+  <meta property="og:image:secure_url" content="https://dorothycares.io/img/printscreen.jpg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:description" content="Dorothy cares about you. It'll help you along your way at BeCode.">
+  <meta name="twitter:title" content="DorothAI">
+  <meta name="twitter:site" content="@becodeorg">
+  <meta name="twitter:image" content="https://dorothycares.io/img/printscreen.jpg">
+
+  <!-- Google Tag Manager -->
+  <script type="text/javascript" async="" src="DorothyCares%201.0.2%20Beta_files/hotjar-852718.js"></script>
+  <script type="text/javascript" async="" src="DorothyCares%201.0.2%20Beta_files/analytics.js"></script>
+  <script async="" src="DorothyCares%201.0.2%20Beta_files/gtm.js"></script>
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WCDFFXV');
+  </script>
+
+  <script async="" src="DorothyCares%201.0.2%20Beta_files/modules-b909a0a0c35c91be4150585a8f64f593.js"></script>
+  <style type="text/css">
+    iframe#_hjRemoteVarsFrame {
+      display: none !important;
+      width: 1px !important;
+      height: 1px !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+    }
+  </style>
+</head>
+
+<body id="body" data-email="leers.mathieu@gmail.com" data-token="wONjE6Tp42jdZZJNusskz9PyJRfQh6xE09M" data-dialogflow-session="86d4616f82f05411699eb6084b87d581">
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCDFFXV" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!--Canvas container for the particles-->
+  <canvas id="canvas" width="1322" height="982"></canvas>
+
+  <!-- Hiding background div for modals -->
+  <div id="hiding-bg-div" class="hiding-bg-div"></div>
+
+  <!-- Date and time -->
+  <nav class="os-bar">
+    <!-- <div class="os-bar__theme">theme</div> -->
+    <div class="os-bar__date-time">09:40:09
+      <br>06/07/2018</div>
+  </nav>
+  <ul id="menu-deroulant">
+    <li>
+      <button href="#" onclick="switchThemeBack()">-</button>
+      <button href="#" onclick="switchThemeNext()">+</button>
+      <ul>
+        <li>
+          <span id="FirstTheme"></span>
+        </li>
+        <!-- <li><a href="#" onclick="switchThemeBack()">Back</a></li>
+        <li><a href="#" onclick="switchThemeCalmMind()">?????</a></li>
+        <li><a href="#" onclick="switchThemeEco()">???????</a></li> -->
+      </ul>
+    </li>
+  </ul>
 
   <script async="" src="LoginDorothyCares%201.0.2%20Beta%20(Dev)_files/modules-f0351196af4fe44b1941f5c0f4bebf6c.js"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style></head>
 
