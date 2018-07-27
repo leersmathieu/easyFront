@@ -7,20 +7,20 @@ $fontVerdana: 'verdana';
 // Background Fog Colors && First Color Charte
 
 $backgroundColor1: black; // <== base color / ref color
-$backgroundColor2: #63A9FF;
-$backgroundColor3: #667cbe;
-$backgroundColor4: #d47fa5;
-$backgroundColor5: #b97cbf;
-$backgroundColor6: #7F49DD;
+$backgroundColor2: rgb(18, 30, 44);
+$backgroundColor3: #596179;
+$backgroundColor4: #2c2026;
+$backgroundColor5: #330c36;
+$backgroundColor6: rgb(14, 13, 15);
 
-$bodyColor: rgba(255, 255, 255, 1); // base fontColor for the body
+$bodyColor: rgb(255, 255, 255); // base fontColor for the body
 
 // loading page - call to action
 
 $fontColorCallToAction: white;
 $backgroundCallToAction: #7968ff;
 $backgroundCallToAction2: white;
-$backgroundCallToActionHover: #6bfff4; 
+$backgroundCallToActionHover: #ffffff; 
 $backgroundLogoCallToAction: white; // <== background color logo google
 
 // Interface
@@ -29,7 +29,7 @@ $fontColorDateTime: rgba(255, 255, 255, 0.9);
 $fontColorMenuTheme: rgba(255, 255, 255, 0.9);
 
 $colorWelcomeMessage: $bodyColor;
-$colorWelcomeMessageHover: lightgrey;
+$colorWelcomeMessageHover: rgb(184, 159, 159);
 $fontSizeWelcomeMessage: 25px;
 
 // Terminal
@@ -59,7 +59,7 @@ $backgroundSaveButtonHover: $fontColorModal;
 
 $colorBall1: #8ee7db; 
 $colorBall2: #abddff; 
-$colorBallHover1: #a69df0; 
+$colorBallHover1: #ffffff; 
 $collorBallHover2: #6896b5; 
 
 $backgroundBallItem: rgba(255, 255, 255, 0.12); // Ball Menu - Icones Periph 

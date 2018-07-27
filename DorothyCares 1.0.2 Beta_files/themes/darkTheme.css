@@ -249,19 +249,19 @@ body {
     background-color: black;
   }
   20% {
-    background-color: #63A9FF;
+    background-color: #121e2c;
   }
   35% {
-    background-color: #667cbe;
+    background-color: #596179;
   }
   55% {
-    background-color: #d47fa5;
+    background-color: #2c2026;
   }
   70% {
-    background-color: #b97cbf;
+    background-color: #330c36;
   }
   85% {
-    background-color: #7F49DD;
+    background-color: #0e0d0f;
   }
   100% {
     background-color: black;
@@ -273,19 +273,19 @@ body {
     background-color: black;
   }
   20% {
-    background-color: #63A9FF;
+    background-color: #121e2c;
   }
   35% {
-    background-color: #667cbe;
+    background-color: #596179;
   }
   55% {
-    background-color: #d47fa5;
+    background-color: #2c2026;
   }
   70% {
-    background-color: #b97cbf;
+    background-color: #330c36;
   }
   85% {
-    background-color: #7F49DD;
+    background-color: #0e0d0f;
   }
   100% {
     background-color: black;
@@ -431,8 +431,8 @@ BALL & MENU
 }
 
 .dorothy-ball:hover {
-  -webkit-box-shadow: inset -80px -10px 100px 5px #a69df0, 40px -10px 100px -40px #6896b5;
-          box-shadow: inset -80px -10px 100px 5px #a69df0, 40px -10px 100px -40px #6896b5;
+  -webkit-box-shadow: inset -80px -10px 100px 5px #ffffff, 40px -10px 100px -40px #6896b5;
+          box-shadow: inset -80px -10px 100px 5px #ffffff, 40px -10px 100px -40px #6896b5;
 }
 
 .ball-menu {
@@ -584,7 +584,7 @@ WELCOME MESSAGE
 }
 
 .welcome-message-style:hover {
-  color: lightgrey;
+  color: #b89f9f;
 }
 
 /*
@@ -1457,7 +1457,7 @@ LOGIN PAGE
 #login-interface .welcome {
   font-weight: 100;
   font-size: 25px;
-  color: lightgrey;
+  color: #b89f9f;
 }
 
 #login-interface .google-button {
@@ -1546,7 +1546,7 @@ LOGIN PAGE
   top: var(--y);
   width: var(--size);
   height: var(--size);
-  background: radial-gradient(circle closest-side, #6bfff4, transparent);
+  background: radial-gradient(circle closest-side, #ffffff, transparent);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-transition: width .2s ease, height .2s ease;
