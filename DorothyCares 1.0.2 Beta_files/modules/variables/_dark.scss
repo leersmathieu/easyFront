@@ -8,7 +8,7 @@ $fontVerdana: 'verdana';
 
 $backgroundColor1: black; // <== base color / ref color
 $backgroundColor2: rgb(18, 30, 44);
-$backgroundColor3: #596179;
+$backgroundColor3: #2e3446;
 $backgroundColor4: #2c2026;
 $backgroundColor5: #330c36;
 $backgroundColor6: rgb(14, 13, 15);
@@ -18,7 +18,7 @@ $bodyColor: rgb(255, 255, 255); // base fontColor for the body
 // loading page - call to action
 
 $fontColorCallToAction: white;
-$backgroundCallToAction: #7968ff;
+$backgroundCallToAction: #ffffff;
 $backgroundCallToAction2: white;
 $backgroundCallToActionHover: #ffffff; 
 $backgroundLogoCallToAction: white; // <== background color logo google
@@ -34,7 +34,7 @@ $fontSizeWelcomeMessage: 25px;
 
 // Terminal
 
-$fontColorDorothyAnswer: #81ffff; 
+$fontColorDorothyAnswer: #ffffff; 
 
 // Modal
 
@@ -57,10 +57,10 @@ $backgroundSaveButtonHover: $fontColorModal;
 
 // Ball Menu
 
-$colorBall1: #8ee7db; 
+$colorBall1: #feffff; 
 $colorBall2: #abddff; 
 $colorBallHover1: #ffffff; 
-$collorBallHover2: #6896b5; 
+$collorBallHover2: #bfc2c3; 
 
 $backgroundBallItem: rgba(255, 255, 255, 0.12); // Ball Menu - Icones Periph 
 $backgroundBallItemHover: #645ea0;
