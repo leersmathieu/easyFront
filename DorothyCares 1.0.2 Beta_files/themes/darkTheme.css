@@ -431,8 +431,8 @@ BALL & MENU
 }
 
 .dorothy-ball:hover {
-  -webkit-box-shadow: inset -80px -10px 100px 5px #ffffff, 40px -10px 100px -40px #bfc2c3;
-          box-shadow: inset -80px -10px 100px 5px #ffffff, 40px -10px 100px -40px #bfc2c3;
+  -webkit-box-shadow: inset -80px -10px 100px 5px #ecfbff, 40px -10px 100px -40px #dbdbdb;
+          box-shadow: inset -80px -10px 100px 5px #ecfbff, 40px -10px 100px -40px #dbdbdb;
 }
 
 .ball-menu {
@@ -1388,7 +1388,7 @@ button:focus {
       margin:0px 6px 0px 2px;
   }*/
 .answer {
-  color: #ffffff;
+  color: #b3dcdf;
   margin-top: 15px;
 }
 
@@ -1521,7 +1521,7 @@ LOGIN PAGE
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #07020209;
+  background: #1e1f24;
   padding: 1em;
   border: none;
   cursor: pointer;
@@ -1546,7 +1546,7 @@ LOGIN PAGE
   top: var(--y);
   width: var(--size);
   height: var(--size);
-  background: radial-gradient(circle closest-side, #9c9c9c, transparent);
+  background: radial-gradient(circle closest-side, #83a09e, transparent);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-transition: width .2s ease, height .2s ease;
@@ -1607,5 +1607,9 @@ LOGIN PAGE
     display: none;
   }
   /**/
+}
+
+.answer {
+  text-shadow: 0px 0px 10px #abddff;
 }
 /*# sourceMappingURL=darkTheme.css.map */
