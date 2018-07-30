@@ -8,9 +8,9 @@ $fontVerdana: 'verdana';
 
 $backgroundColor1: black; // <== base color / ref color
 $backgroundColor2: rgb(18, 30, 44);
-$backgroundColor3: #2e3446;
+$backgroundColor3: #252a38;
 $backgroundColor4: #2c2026;
-$backgroundColor5: #330c36;
+$backgroundColor5: #2b092e;
 $backgroundColor6: rgb(14, 13, 15);
 
 $bodyColor: rgb(255, 255, 255); // base fontColor for the body
@@ -41,8 +41,8 @@ $fontColorDorothyAnswer: #ffffff;
 $fontColorModal: white; // Global font color for modal
 
 $fontColorModalCreators: lightgray; 
-$colorBoxShadowModal: #0D1321;
-$underlineProfileInput: 1px solid black;
+$colorBoxShadowModal: rgb(255, 255, 255);
+$underlineProfileInput: 1px solid rgb(255, 255, 255);
 
 $logoutButton: $fontColorModal;
 $logoutButtonHover: #e17474;

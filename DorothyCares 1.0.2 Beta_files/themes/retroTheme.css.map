@@ -17,7 +17,8 @@
         "../defaults/_modalExtend.scss",
         "../defaults/_terminal.scss",
         "../defaults/_loadingPage.scss",
-        "../defaults/_mediaQueries.scss"
+        "../defaults/_mediaQueries.scss",
+        "../retro/_all.scss"
     ],
     "names": [],
     "file": "retroTheme.css"
