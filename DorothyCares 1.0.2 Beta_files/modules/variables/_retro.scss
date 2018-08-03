@@ -7,10 +7,10 @@ $fontVerdana: 'verdana';
 
 // Background Fog Colors && First Color Charte
 
-$backgroundColor1: #A93926; // <== base color / ref color
-$backgroundColor2: rgb(253, 91, 85);
-$backgroundColor3: #FEA846;
-$backgroundColor4: rgb(255, 218, 159);
+$backgroundColor1: rgb(202, 20, 148); // <== base color / ref color
+$backgroundColor2: rgb(141, 26, 141);
+$backgroundColor3: rgb(52, 36, 126);
+$backgroundColor4: #FEA846;
 $backgroundColor5: #21a2ec;
 $backgroundColor6: rgb(148, 82, 202);
 
@@ -58,10 +58,10 @@ $backgroundSaveButtonHover: $fontColorModal;
 
 // Ball Menu
 
-$colorBall1: rgba(199, 55, 29, 0.541); 
-$colorBall2: rgb(199, 54, 29); 
-$colorBallHover1: rgb(199, 54, 29); 
-$colorBallHover2: rgb(199, 54, 29); 
+$colorBall1: rgba(253, 223, 218, 0.541); 
+$colorBall2: rgb(212, 178, 104); 
+$colorBallHover1: rgba(255, 224, 218,0.6); 
+$colorBallHover2: rgb(255, 252, 65); 
 $colorLine: white;
 
 $backgroundBallItem: rgb(199, 54, 29); // Ball Menu - Icones Periph 

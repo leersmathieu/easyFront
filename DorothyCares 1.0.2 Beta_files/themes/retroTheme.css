@@ -291,16 +291,16 @@ body {
 
 @-webkit-keyframes bgColorAnim {
   0% {
-    background-color: #A93926;
+    background-color: #ca1494;
   }
   20% {
-    background-color: #fd5b55;
+    background-color: #8d1a8d;
   }
   35% {
-    background-color: #FEA846;
+    background-color: #34247e;
   }
   55% {
-    background-color: #ffda9f;
+    background-color: #FEA846;
   }
   70% {
     background-color: #21a2ec;
@@ -309,22 +309,22 @@ body {
     background-color: #9452ca;
   }
   100% {
-    background-color: #A93926;
+    background-color: #ca1494;
   }
 }
 
 @keyframes bgColorAnim {
   0% {
-    background-color: #A93926;
+    background-color: #ca1494;
   }
   20% {
-    background-color: #fd5b55;
+    background-color: #8d1a8d;
   }
   35% {
-    background-color: #FEA846;
+    background-color: #34247e;
   }
   55% {
-    background-color: #ffda9f;
+    background-color: #FEA846;
   }
   70% {
     background-color: #21a2ec;
@@ -333,7 +333,7 @@ body {
     background-color: #9452ca;
   }
   100% {
-    background-color: #A93926;
+    background-color: #ca1494;
   }
 }
 
@@ -467,8 +467,8 @@ BALL & MENU
   border-radius: 100%;
   z-index: 10;
   cursor: pointer;
-  -webkit-box-shadow: inset 80px -10px 100px 5px rgba(199, 55, 29, 0.541), 0px 0px 100px -20px #c7361d;
-          box-shadow: inset 80px -10px 100px 5px rgba(199, 55, 29, 0.541), 0px 0px 100px -20px #c7361d;
+  -webkit-box-shadow: inset 80px -10px 100px 5px rgba(253, 223, 218, 0.541), 0px 0px 100px -20px #d4b268;
+          box-shadow: inset 80px -10px 100px 5px rgba(253, 223, 218, 0.541), 0px 0px 100px -20px #d4b268;
   opacity: 0;
   /* ------------ toggle maybe ------------ */
   -webkit-transition: -webkit-box-shadow ease 0.5s;
@@ -478,8 +478,8 @@ BALL & MENU
 }
 
 .dorothy-ball:hover {
-  -webkit-box-shadow: inset -80px -10px 100px 5px #c7361d, 40px -10px 100px -40px #6896b5;
-          box-shadow: inset -80px -10px 100px 5px #c7361d, 40px -10px 100px -40px #6896b5;
+  -webkit-box-shadow: inset -80px -10px 100px 5px rgba(255, 224, 218, 0.6), 40px -10px 100px -40px #6896b5;
+          box-shadow: inset -80px -10px 100px 5px rgba(255, 224, 218, 0.6), 40px -10px 100px -40px #6896b5;
 }
 
 .ball-menu {
@@ -939,7 +939,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 }
 
 .modal-body-title-icons a {
-  color: #A93926;
+  color: #ca1494;
 }
 
 .profile-details {
@@ -1657,7 +1657,7 @@ LOGIN PAGE
 }
 
 .modal-body-title {
-  font-size: 1rem;
+  font-size: 1.7rem;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Amatic SC", cursive;
@@ -1686,8 +1686,18 @@ LOGIN PAGE
   max-width: 600px;
 }
 
+.profile-input-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-input-wrapper label {
+  font-size: 1.5rem;
+}
+
 .welcome-message-style {
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
 }
 
 .dorothy-ball {
@@ -1699,8 +1709,8 @@ LOGIN PAGE
   border-radius: 100%;
   z-index: 10;
   cursor: pointer;
-  -webkit-box-shadow: inset 80px -10px 100px 5px rgba(199, 55, 29, 0.541), 0px 0px 100px -20px #c7361d;
-          box-shadow: inset 80px -10px 100px 5px rgba(199, 55, 29, 0.541), 0px 0px 100px -20px #c7361d;
+  -webkit-box-shadow: inset 80px -10px 100px 5px rgba(253, 223, 218, 0.541), 0px 0px 100px -20px #d4b268;
+          box-shadow: inset 80px -10px 100px 5px rgba(253, 223, 218, 0.541), 0px 0px 100px -20px #d4b268;
   opacity: 0;
   /* ------------ toggle maybe ------------ */
   -webkit-transition: -webkit-box-shadow ease 0.5s;
@@ -1710,8 +1720,8 @@ LOGIN PAGE
 }
 
 .dorothy-ball:hover {
-  -webkit-box-shadow: inset -80px -10px 100px 5px #c7361d, 40px -10px 100px -40px #c7361d;
-          box-shadow: inset -80px -10px 100px 5px #c7361d, 40px -10px 100px -40px #c7361d;
+  -webkit-box-shadow: inset -80px -10px 100px 5px rgba(255, 224, 218, 0.6), 40px -10px 100px -40px #fffc41;
+          box-shadow: inset -80px -10px 100px 5px rgba(255, 224, 218, 0.6), 40px -10px 100px -40px #fffc41;
 }
 
 .dorothy-ball .lines {
@@ -2039,7 +2049,56 @@ LOGIN PAGE
   }
 }
 
+.ball-menu-item-label.info-label {
+  opacity: 0;
+  font-size: 1.5rem;
+}
+
+.ball-menu-item-label.terminal-label {
+  opacity: 0;
+  font-size: 1.5rem;
+}
+
+.ball-menu-item-label.profile-label {
+  opacity: 0;
+  font-size: 1.5rem;
+}
+
+.ball-menu-item-label.calendar-label {
+  opacity: 0;
+  font-size: 1.5rem;
+}
+
 body {
   font-family: "Amatic SC", cursive;
+}
+
+.terminal {
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+#window-name {
+  font-size: 1.5rem;
+}
+
+.modal-info-creators {
+  font-size: 1.4rem;
+}
+
+.modal-info-links {
+  font-size: 1.2rem;
+}
+
+.os-bar {
+  font-size: 1.8rem;
+}
+
+.os-bar__date-time {
+  font-size: 1.8rem;
+}
+
+#menu-deroulant ul li a, #menu-deroulant li:hover li a {
+  font-size: 1.4rem;
 }
 /*# sourceMappingURL=retroTheme.css.map */

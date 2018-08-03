@@ -1,5 +1,5 @@
 .modal-body-title {
-    font-size: 1rem;
+    font-size: 1.7rem;
     font-weight: 600;
     text-transform: uppercase;
     font-family: $fontAmatic;
@@ -25,4 +25,11 @@
 
 #profilePage {
     max-width: 600px;;
+}
+
+.profile-input-wrapper {
+    display: flex;    
+    label {
+        font-size: 1.5rem;
+    }
 }
