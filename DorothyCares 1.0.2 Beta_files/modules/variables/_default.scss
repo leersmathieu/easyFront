@@ -7,6 +7,8 @@ $fontAmatic: 'Amatic SC', cursive;
 
 // Background Fog Colors && First Color Charte
 
+$bgDorothyImg: "../../img/bg-doro5.png";
+
 $backgroundColor1: #978EFF; // <== base color / ref color
 $backgroundColor2: #63A9FF;
 $backgroundColor3: #667cbe;
@@ -62,6 +64,8 @@ $colorBall1: #8ee7db;
 $colorBall2: #abddff; 
 $colorBallHover1: #a69df0; 
 $collorBallHover2: #6896b5; 
+$colorBallDiffusion: 100px; //shadow-in diffusion
+$colorBallDiffusionHover: 100px;
 
 $backgroundBallItem: rgba(255, 255, 255, 0.12); // Ball Menu - Icones Periph 
 $backgroundBallItemHover: #645ea0;
