@@ -35,11 +35,11 @@ $fontSizeWelcomeMessage: 45px;
 
 // Terminal
 
-$fontColorDorothyAnswer: #ffffff; 
+$fontColorDorothyAnswer: #adadad; 
 
 // Modal
 
-$fontColorModal: black; // Global font color for modal
+$fontColorModal: $bodyColor; // Global font color for modal
 
 $fontColorModalCreators: rgb(255, 255, 255); 
 $colorBoxShadowModal: #0D1321;
@@ -64,8 +64,8 @@ $colorBallHover1: rgba(255, 224, 218,0.6);
 $colorBallHover2: rgb(255, 252, 65); 
 $colorLine: white;
 
-$backgroundBallItem: rgb(199, 54, 29); // Ball Menu - Icones Periph 
-$backgroundBallItemHover: rgb(199, 54, 29);
+$backgroundBallItem: rgba(255, 255, 255, 0.1); // Ball Menu - Icones Periph
+$backgroundBallItemHover: rgba(255, 255, 255, 0.4);
 $borderColorBallItem: #ffffff;
 $colorLogoBallItem: #ffffff;
-$unavailableBallCalendar: white;
+$unavailableBallCalendar: rgba(184, 184, 184, 0.5);

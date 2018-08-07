@@ -503,7 +503,7 @@ BALL & MENU
 .ball-menu-item {
   width: 50px;
   height: 50px;
-  background-color: #c7361d;
+  background-color: rgba(255, 255, 255, 0.1);
   border: 2px solid #ffffff;
   border-radius: 100%;
   position: absolute;
@@ -513,7 +513,7 @@ BALL & MENU
 }
 
 .ball-menu-item:hover {
-  background-color: #c7361d;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .ball-menu-item i {
@@ -547,7 +547,7 @@ BALL & MENU
 .ball-menu-item.menu-calendar {
   top: 60px;
   right: 0;
-  background-color: white !important;
+  background-color: rgba(184, 184, 184, 0.5) !important;
 }
 
 .ball-menu-item-label {
@@ -694,7 +694,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .messageModalClose p {
   cursor: pointer;
-  color: black;
+  color: white;
 }
 
 .messageModal:hover .messageModalClose {
@@ -768,7 +768,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: black;
+  color: white;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 100%;
@@ -822,7 +822,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-header .modal-close-btn i {
   font-size: 4rem;
-  color: black;
+  color: white;
 }
 
 .modal-header-2 {
@@ -865,7 +865,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-header-2 .modal-close-btn-2 i {
   font-size: 4rem;
-  color: black;
+  color: white;
 }
 
 .modal-body {
@@ -900,7 +900,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-body-block-title {
   font-weight: 300;
-  color: black;
+  color: white;
 }
 
 .modal-body-block-content {
@@ -910,7 +910,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 }
 
 .modal-body-block-content a {
-  color: black;
+  color: white;
 }
 
 .modal-body-title-container {
@@ -926,7 +926,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .modal-body-title-title {
   /* PROFILE */
   width: 80%;
-  color: black;
+  color: white;
 }
 
 .modal-body-title-icons {
@@ -969,7 +969,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .profile-input-wrapper label {
   width: 30%;
-  color: black;
+  color: white;
   text-transform: uppercase;
 }
 
@@ -983,7 +983,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   width: 60%;
   font-family: "Roboto Mono", monospace;
   font-weight: 300;
-  color: black;
+  color: white;
 }
 
 ::-webkit-input-placeholder {
@@ -1015,7 +1015,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .profile-logout {
   -webkit-transition: color ease 0.3s;
   transition: color ease 0.3s;
-  color: black;
+  color: white;
 }
 
 .profile-buttons {
@@ -1041,9 +1041,9 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   padding: 5px 0px;
   margin-top: 25px;
   border-radius: 50px;
-  border: 2px solid black;
+  border: 2px solid white;
   outline: none;
-  color: black;
+  color: white;
   background-color: transparent;
   cursor: pointer;
   font-family: "Roboto Mono", monospace;
@@ -1060,9 +1060,9 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   margin-bottom: 50px;
   border-radius: 50px;
   /*border: none;*/
-  border: 2px solid black;
+  border: 2px solid white;
   outline: none;
-  color: black;
+  color: white;
   background-color: transparent;
   cursor: pointer;
   font-family: "Roboto Mono", monospace;
@@ -1081,7 +1081,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .profile-save-details:hover,
 .profile-add-details:hover {
   /* PROFILE MIKEY */
-  background-color: black;
+  background-color: white;
   color: white;
 }
 
@@ -1103,7 +1103,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   font-size: 0.8rem;
   width: 70px;
   background-color: #fdfdfd;
-  color: black;
+  color: white;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -1182,7 +1182,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 .modal-close-btn-3 i {
   cursor: pointer;
   font-size: 4rem;
-  color: black;
+  color: white;
 }
 
 .modal-body-info {
@@ -1203,7 +1203,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
 
 .modal-info-title {
   font-weight: 300;
-  color: black;
+  color: white;
   margin: 0;
   display: block;
   text-align: center;
@@ -1242,7 +1242,7 @@ MODALS (WINDOWS POPPING UP FROM TOP, RIGHT AND LEFT)
   font-weight: 100;
   display: block;
   text-align: center;
-  color: black;
+  color: white;
   margin-right: 5px;
   margin-bottom: 0.4rem;
   text-decoration: none;
@@ -1442,7 +1442,7 @@ button:focus {
       margin:0px 6px 0px 2px;
   }*/
 .answer {
-  color: #ffffff;
+  color: #adadad;
   margin-top: 15px;
 }
 
@@ -1676,7 +1676,7 @@ LOGIN PAGE
 
 .modal-body-block-title {
   font-weight: 600;
-  color: black;
+  color: white;
 }
 
 .modal-body-block-content {
@@ -1686,7 +1686,7 @@ LOGIN PAGE
 }
 
 .modal-body-block-content a {
-  color: black;
+  color: white;
 }
 
 #profilePage {
