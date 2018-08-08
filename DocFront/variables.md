@@ -1,9 +1,9 @@
 # Création de variable
 
 Nous avons créer des variables afin de pouvoir concevoir des thèmes simplement et efficacement.  
-On a placé tout les aspects importants du design dans ces variables de manière à pouvoir manipuler tout cela très facilement par la suite.  
+On a placé tous les aspects importants du design dans des variables de manière à pouvoir manipuler tout cela très facilement par la suite.  
 
-Voici un apercçu des variables par défaut : 
+Voici un aperçu des variables par défaut : 
 
 ```scss
 // Fonts Family
