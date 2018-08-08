@@ -11,7 +11,7 @@
 
 ## Comment créer un nouveau thème :
 
-On a fait en sorte que l'on puisse facilement crée des thèmes en manipulant les variables, mais on peut bien entendu remanier entièrement le style pour chaque thème si tel est notre désire. Un peu comme s'il y avait un mode simple et avancé sur la création de thème. Plus d'info sur le lien ci dessous.
+On a fait en sorte que lorsqu'on crée des thèmes en manipulant les variables, on peut bien entendu remanier entièrement le style pour chaque thème si tel est notre désir. Un peu comme s'il y avait un mode simple et avancé sur la création de thème. Plus d'info sur le lien ci dessous.
 
 [Créer un nouveau thème.](./DocFront/addNewTheme.md) 
 
