@@ -1,6 +1,7 @@
 # Fonctionnement du système de thème
 
 Une fois les variables déclarée on à mis en place le système de thème.  
+Pour faire simple, on change avec JS la feuille de style en fonction du thème sur lequel on se trouve
 
 Voici une partie du code qui explique comment cela fonctionne exactement :
 
@@ -77,4 +78,5 @@ let switchTheme = (switchTo) => {
 
 ## Pour l'incrustation dans Dorothy (design)
 
-On s'est finalement penché sur un onglet avec un bouton ( flèche ) suivant et précédent
+On s'est finalement penché sur un onglet avec un bouton ( flèche ) suivant et précédent incrusté dans le "header" de dorothy.
+Une liste est aussi déroulée si on clique sur le nom du thème
