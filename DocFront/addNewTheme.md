@@ -37,9 +37,13 @@ const themeChoice = [
 Dans ./css/module/variables dupliquer la feuille de variable "`_`défault.scss" et donner lui le nom adéquat.
 
 Retourner dans la feuille du thème a la racine ( ./css ) et ajouter l'import de la feuille de variable
+(Veuillez a placer cette ligne de commande juste en dessous des variables par défault, comme ceci :
 
 ```scss
-@import "modules/variables/NomFeuilleVariable;
+@import "modules/variables/default";
+@import "modules/variables/NomFeuilleVariable";
+@import "modules/all";
+@import "themes/default/all";
 ```
 
 Voilà, il ne reste plus qu'a modifier les variables ( de votre nouvelle feuille de variable ... ) et les changements prendront directement effet.
