@@ -1,6 +1,6 @@
 # Fonctionnement du système de thème
 
-Une fois les variables déclarée on à mis en place le système de thème.  
+Une fois les variables déclarées on a mis en place le système de thème.  
 Pour faire simple, on change avec JS la feuille de style en fonction du thème sur lequel on se trouve
 
 Voici une partie du code qui explique comment cela fonctionne exactement :
