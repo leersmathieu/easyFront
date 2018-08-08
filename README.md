@@ -13,7 +13,7 @@
 
 On a fait en sorte que l'on puisse facilement crée des thèmes en manipulant les variables, mais on peut bien entendu remanier entièrement le style pour chaque thème si tel est notre désire. Un peu comme s'il y avait un mode simple et avancé sur la création de thème. Plus d'info sur le lien ci dessous.
 
-[Créer un nouveau thème.](./DocFront/AddNewTheme.md) 
+[Créer un nouveau thème.](./DocFront/addNewTheme.md) 
 
 
 
