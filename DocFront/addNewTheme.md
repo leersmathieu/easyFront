@@ -1,6 +1,6 @@
 # Comment créer un nouveau theme ?
-
-Pour commencer, il faut créer une nouvelle feuille scss ( dans ./css ) avec un nom correspondant au thème que l'on veut créer.
+## Créer le fichier .CSS
+Pour commencer, il faut créer une nouvelle feuille scss ( dans le dossier `css/` ) avec un nom correspondant au thème que l'on veut créer.
 
 Sur cette feuille importer le thème par défault :
 
@@ -9,7 +9,14 @@ Sur cette feuille importer le thème par défault :
 @import "modules/all";
 @import "themes/default/all";
 ```
+- Les fichiers se trouvant dans le dossiers `css/modules/variables/` regroupent uniquement les variables, permettant de configurer certains aspects d'un style très simplement en changeant seulement la valeur d'une variable.
+Le fichier `_default.scss` contient l'ensemble des variables, et sauf cas particulier, il faudra toujours importer ce fichier en premier lieu.
+Les autres fichiers de variables, chacun propre à un thème, viennent écraser les valeurs de certaines variables.
+- Le fichier `css/modules/_all.scss` se contente de charger les keyframes et mixins. Nous avons très peu travaillé sur ces aspects
 
+
+
+## Ajouter le thème à la sélection
 Ajouter le thème dans la sélection de thème ( ./js/themeSelector.js ) comme pour les autres 
 
 ```js
